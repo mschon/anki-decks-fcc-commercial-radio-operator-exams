@@ -1,0 +1,4673 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "7e8b7bfd-6ad0-11e9-86d1-f45c89a0e3a9",
+    "deck_config_uuid": "05c33bf8-6ab7-11e9-97f9-f45c89a0e3a9",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "05c33bf8-6ab7-11e9-97f9-f45c89a0e3a9",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Paused",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 0,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-2658584756439.jpg",
+        "paste-2830383448270.jpg",
+        "paste-105677670318395.jpg",
+        "paste-2967822401822.jpg",
+        "paste-105853763977537.jpg",
+        "paste-105630425678066.jpg",
+        "paste-105974023061784.jpg",
+        "paste-105467216921066.jpg",
+        "paste-105411382346039.jpg",
+        "paste-105724914958664.jpg",
+        "paste-105772159599032.jpg",
+        "paste-3083786518744.jpg",
+        "paste-2783138808030.jpg",
+        "paste-105514461561115.jpg",
+        "paste-105978318029080.jpg",
+        "paste-105407087378743.jpg",
+        "paste-2972117369118.jpg",
+        "paste-105578886070588.jpg",
+        "paste-55022826029507.jpg"
+    ],
+    "name": "FCC Commercial Written Element 8",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "vim"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-1A1 Choose the most correct statement containing the parameters which control the size of the target echo.<div><br /></div><div><div>- Transmitted power, antenna effective area, transmit and receive losses, RADAR cross section of the target, range to target.</div><div><br /></div><div>- Height of antenna, power radiated, size of target, receiver gain, pulse width.</div><div><br /></div><div>- Power radiated, antenna gain, size of target, shape of target, pulse width, receiver gain.</div><div><br /></div><div>- Magnetron gain, antenna gain, size of target, range to target, wave-guide loss.</div></div><div><br /></div>",
+                "<div>Transmitted power, antenna effective area, transmit and receive losses, RADAR cross section of the target, range to target.</div>"
+            ],
+            "flags": 0,
+            "guid": "KeAb}&uhM6",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-1A2 Which of the following has NO effect on the maximum range capability?<div><br /></div><div><div>- Carrier frequency.</div><div><br /></div><div>- Recovery time.</div><div><br /></div><div>- Pulse repetition frequency.</div><div><br /></div><div>- Receiver sensitivity.</div></div><div><br /></div>",
+                "<div>Recovery time.</div>"
+            ],
+            "flags": 0,
+            "guid": "kQ:S6`A)gQ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-1A3 What type of transmitter power is measured over a period of time?",
+                "<div>Average.</div>"
+            ],
+            "flags": 0,
+            "guid": "K)^u)(2^w/",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-1A4 What RADAR component controls timing throughout the system?",
+                "<div>Synchronizer.</div>"
+            ],
+            "flags": 0,
+            "guid": "xe%.cvrtw@",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-1A5 Which of the following components allows the use of a single antenna for both transmitting and receiving?<div><br /></div><div><div>- Mixer.</div><div><br /></div><div>- Duplexer.</div><div><br /></div><div>- Synchronizer.</div><div><br /></div><div>- Modulator.</div></div><div><br /></div>",
+                "<div>Duplexer.</div>"
+            ],
+            "flags": 0,
+            "guid": "J2co?>i=nI",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "duplexer",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-1A6 The sweep frequency of a RADAR indicator is determined by what parameter?",
+                "<div>Pulse repetition frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "I$nJ]LpO(F",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-2A1 A radio wave will travel a distance of three nautical miles in:",
+                "<div>18.51 microseconds.</div>"
+            ],
+            "flags": 0,
+            "guid": "izZV=5LmHl",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-2A2 One RADAR mile is how many microseconds?",
+                "<div>12.34</div>"
+            ],
+            "flags": 0,
+            "guid": "w//f}60B`*",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-2A3 RADAR range is measured by the constant:",
+                "<div>150 meters per microsecond.</div>"
+            ],
+            "flags": 0,
+            "guid": "D28Q=k[3D>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-2A4 If a target is 5 miles away, how long does it take for the RADAR echo to be received back at the antenna?",
+                "<div>61.7 microseconds.</div>"
+            ],
+            "flags": 0,
+            "guid": "b3(WcryTvf",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-2A5 How long would it take for a RADAR pulse to travel to a target 10 nautical miles away and return to the RADAR receiver?",
+                "<div>123.4 microseconds.</div>"
+            ],
+            "flags": 0,
+            "guid": "I!?o`|_RQj",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-2A6 What is the distance in nautical miles to a target if it takes 308.5 microseconds for the RADAR pulse to travel from the RADAR antenna to the target and back.",
+                "<div>25 nautical miles.</div>"
+            ],
+            "flags": 0,
+            "guid": "el5eoosiaQ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-3A1 Frequencies generally used for marine RADAR are in the ___ part of the radio spectrum.",
+                "<div>SHF</div>"
+            ],
+            "flags": 0,
+            "guid": "Cag8)*V%bY",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-3A2 Practical RADAR operation requires the use of microwave frequencies so that:",
+                "<div>Stronger target echoes will be produced.</div>"
+            ],
+            "flags": 0,
+            "guid": "sA,mF96U(0",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-3A3 An S-band RADAR operates in which frequency band?",
+                "<div>2 - 4 GHz.</div>"
+            ],
+            "flags": 0,
+            "guid": "sR&3tVI/0y",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-3A4 A RADAR operating at a frequency of 3 GHz has a wavelength of approximately:",
+                "10 centimeters."
+            ],
+            "flags": 0,
+            "guid": "mp2V=XtLf}",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-3A5 The major advantage of an S-band RADAR over an X-band RADAR is:",
+                "It is less affected by weather conditions."
+            ],
+            "flags": 0,
+            "guid": "dRa|p]OzE7",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-3A6 An X band RADAR operates in which frequency band?",
+                "8 - 12 GHz."
+            ],
+            "flags": 0,
+            "guid": "r$lMspF#H>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-4A1 A pulse RADAR has a pulse repetition frequency (PRF) of 400 Hz, a pulse width of 1 microsecond, and a peak power of 100 kilowatts. The average power of the RADAR transmitter is:",
+                "<div>40 watts.</div>"
+            ],
+            "flags": 0,
+            "guid": "N}[hw1b]J$",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-4A2 A shipboard RADAR transmitter has a pulse repetition frequency (PRF) of 1,000 Hz, a pulse width of 0.5 microseconds, peak power of 150 KW, and a minimum range of 75 meters. Its duty cycle is:",
+                "<div>0.0005</div>"
+            ],
+            "flags": 0,
+            "guid": "q7:UBh[-Fv",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-4A3 A pulse RADAR transmits a 0.5 microsecond RF pulse with a peak power of 100 kilowatts every 1600 microseconds. This RADAR has:",
+                "<div>An average power of 31.25 watts.</div>"
+            ],
+            "flags": 0,
+            "guid": "y4S4!b{IE(",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-4A4 If a RADAR transmitter has a pulse repetition frequency (PRF) of 900 Hz, a pulse width of 0.5 microseconds and a peak power of 15 kilowatts, what is its average power output?",
+                "6.75 watts."
+            ],
+            "flags": 0,
+            "guid": "kZ|_B>4?@M",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-4A5 What is the average power if the RADAR set has a PRF of 1000 Hz, a pulse width of 1 microsecond, and a peak power rating of 100 kilowatts?",
+                "100 watts."
+            ],
+            "flags": 0,
+            "guid": "oBKL-F:(gt",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-4A6 A search RADAR has a pulse width of 1.0 microsecond, a pulse repetition frequency (PRF) of 900 Hz, and an average power of 18 watts. The unit’s peak power is:",
+                "20 kilowatts."
+            ],
+            "flags": 0,
+            "guid": "y~ldDpB3@E",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-5A1 For a range of 5 nautical miles, the RADAR pulse repetition frequency should be:",
+                "<div>16.2 kHz or less.</div>"
+            ],
+            "flags": 0,
+            "guid": "E)731hp$Uv",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-5A2 For a range of 100 nautical miles, the RADAR pulse repetition frequency should be:",
+                "<div>810 Hz or less.</div>"
+            ],
+            "flags": 0,
+            "guid": "LU*v!/<&k{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-5A3 The minimum range of a RADAR is determined by:",
+                "<div>The transmitted pulse width.</div>"
+            ],
+            "flags": 0,
+            "guid": "z3f*Mg~F9f",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-5A4 Short range RADARs would most likely transmit:",
+                "<div>Narrow pulses at a fast rate.</div>"
+            ],
+            "flags": 0,
+            "guid": "x=W%Xlj0L~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-5A5 For a range of 30 nautical miles, the RADAR pulse repetition frequency should be:",
+                "<div>2.7 kHz or less.</div>"
+            ],
+            "flags": 0,
+            "guid": "Fuq?P*+WFk",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-5A6 For a range of 10 nautical miles, the RADAR pulse repetition frequency (PRF) should be:",
+                "<div>Approximately 8.1 kHz or less.</div>"
+            ],
+            "flags": 0,
+            "guid": "ucky5L.ntN",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-6A1 If the PRF is 2500 Hz, what is the PRI?",
+                "<div>400 microseconds.</div>"
+            ],
+            "flags": 0,
+            "guid": "HlDk2x~0s2",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-6A2 If the pulse repetition frequency (PRF) is 2000 Hz, what is the pulse repetition interval (PRI)?",
+                "<div>0.0005 seconds.</div>"
+            ],
+            "flags": 0,
+            "guid": "B%&k<%33Jk",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-6A3 The pulse repetition rate (PRR) refers to:",
+                "<div>The pulse rate of the magnetron.</div>"
+            ],
+            "flags": 0,
+            "guid": "J0L0)2U+{O",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-6A4 If the RADAR unit has a pulse repetition frequency (PRF) of 2000 Hz and a pulse width of 0.05 microseconds, what is the duty cycle?",
+                "<div>0.0001</div>"
+            ],
+            "flags": 0,
+            "guid": "t}wpGg79_N",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-6A5 Small targets are best detected by:",
+                "Using a long pulse width with high output power."
+            ],
+            "flags": 0,
+            "guid": "sp-@RA!xvZ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-6A6 What is the relationship between pulse repetition rate and pulse width?",
+                "Lower PRR with wider pulse width."
+            ],
+            "flags": 0,
+            "guid": "L#/KR?40bL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-7A1 What component of a RADAR receiver is represented by block 46 in Fig. 8A1?<div><br /></div><div><img src=\"paste-105411382346039.jpg\" /></div>",
+                "<div>The TR box.</div>"
+            ],
+            "flags": 0,
+            "guid": "E91cwVs5A:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-7A2 A basic sample-and-hold circuit contains:",
+                "<div>An analog switch, a capacitor, amplifiers and input and output buffers.</div>"
+            ],
+            "flags": 0,
+            "guid": "L#V@5lUfc<",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-7A3 When comparing a TTL and a CMOS NAND gate:",
+                "<div>Both have active pull-up characteristics.</div>"
+            ],
+            "flags": 0,
+            "guid": "rDk,$H3l<a",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-7A4 Silicon crystals:<div><br /></div><div><div>- Are very sensitive to static electric charges.</div><div><br /></div><div>- Should be wrapped in lead foil for storage.</div><div><br /></div><div>- Tolerate very low currents.</div><div><br /></div><div>- All of these.</div></div><div><br /></div>",
+                "<div>-&nbsp;Are very sensitive to static electric charges.</div><div><br /></div><div>- Should be wrapped in lead foil for storage.</div><div><br /></div><div>- Tolerate very low currents.</div><div><br /></div><div>(All of these.)</div>"
+            ],
+            "flags": 0,
+            "guid": "z_ocq;F?6Y",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-7A5 Which is typical current for a silicon crystal used in a RADAR mixer or detector circuit?",
+                "<div>3 mA</div>"
+            ],
+            "flags": 0,
+            "guid": "u7Bs*qGOk[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-7A6 What component of a RADAR receiver is represented by block 47 in Fig. 8A1?<div><br /></div><div><img src=\"paste-105407087378743.jpg\" /></div>",
+                "<div>The RF Attenuator.</div>"
+            ],
+            "flags": 0,
+            "guid": "k{fm%S}hT",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "attenuator",
+                "maritime",
+                "radar",
+                "receivers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-8A1 The basic frequency determining element in a Gunn oscillator is:",
+                "<div>The resonant cavity.</div>"
+            ],
+            "flags": 0,
+            "guid": "d>n~tOBXli",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-8A2 Which of the following is not a method of analog-to-digital conversion?<div><br /></div><div><div>- Delta-sigma conversion.</div><div><br /></div><div>- Dynamic-range conversion.</div><div><br /></div><div>- Switched-capacitor conversion.</div><div><br /></div><div>- Dual-slope integration.</div></div><div><br /></div>",
+                "<div>Dynamic-range conversion.</div>"
+            ],
+            "flags": 0,
+            "guid": "KY}`gZAP<h",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-8A3 When comparing TTL and CMOS logic families, which of the following is true:<div><br /></div><div><div>- CMOS logic requires a supply voltage of 5 volts ±20%, whereas TTL logic requires 5 volts ±5%.</div><div><br /></div><div>- Unused inputs should be tied high or low as necessary especially in the CMOS family.</div><div><br /></div><div>- At higher operating frequencies, CMOS circuits consume almost as much power as TTL circuits.</div><div><br /></div><div>- When a CMOS input is held low, it sources current into whatever it drives.</div></div><div><br /></div>",
+                "<div>At higher operating frequencies, CMOS circuits consume almost as much power as TTL circuits.</div>"
+            ],
+            "flags": 0,
+            "guid": "DKoeruS)Vr",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-8A4 The primary operating frequency of a reflex klystron is controlled by the:",
+                "<div>Dimensions of the resonant cavity.</div>"
+            ],
+            "flags": 0,
+            "guid": "BAt_$nFDmn",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-8A5 A Gunn diode oscillator takes advantage of what effect?",
+                "Negative resistance and bulk-effect."
+            ],
+            "flags": 0,
+            "guid": "N]Brq_Y=Ad",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-8A6 Fine adjustments of a reflex klystron are accomplished by:",
+                "Varying the repeller voltage."
+            ],
+            "flags": 0,
+            "guid": "JfsR?7_*7;",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-9A1 Blocking oscillators operate on the formula of:",
+                "<div>T = R x C.</div>"
+            ],
+            "flags": 0,
+            "guid": "M~9.>OJ0VM",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-9A2 The block diagram of a typical RADAR system microprocessor is shown in Fig. 8A2. Choose the most correct statement regarding this system.<div><br /></div><div><div>- The ALU is used for address decoding.</div><div><br /></div><div>- The Memory and I/O communicate with peripherals.</div><div><br /></div><div>- The control unit executes arithmetic manipulations.</div><div><br /></div><div>- The internal bus is used simultaneously by all units.</div><div><br /></div><div><img src=\"paste-105467216921066.jpg\" /></div></div><div><br /></div>",
+                "<div>The Memory and I/O communicate with peripherals.</div>"
+            ],
+            "flags": 0,
+            "guid": "ybKk.^!<zC",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-9A3 The phantastron circuit is capable of:",
+                "<div>Developing a linear ramp voltage when triggered by an external source.</div>"
+            ],
+            "flags": 0,
+            "guid": "qg8IBB8s>K",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-9A4 The block diagram of a typical RADAR system microprocessor is shown in Fig. 8A2. Choose the most&nbsp;correct statement regarding this system.</div><div><br /></div><div><div>- The ALU executes arithmetic manipulations.</div><div><br /></div><div>- The ALU is used for address decoding.</div><div><br /></div><div>- General registers are used for arithmetic manipulations.</div><div><br /></div><div>- Address pointers are contained in the control unit.</div></div><div><br /></div><div><img src=\"paste-55022826029507.jpg\" /></div><div><br /></div>",
+                "<div>The ALU executes arithmetic manipulations.&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "xPt)Q_mwvd",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-9A5 In the Line-Driver/Coax/Line-receiver circuit shown in Fig. 8A3, what component is represented by the&nbsp;blank box marked \"X\"?</div><div><br /></div><div><img src=\"paste-105514461561115.jpg\" /></div>",
+                "<div>51-ohm resistor.</div>"
+            ],
+            "flags": 0,
+            "guid": "I?sYWB:#-#",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "resistors"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-9A6 Choose the most correct statement:<div><br /></div><div><div>- The magnetron anode is a low voltage circuit.</div><div><br /></div><div>- The anode of the magnetron carries high voltage.</div><div><br /></div><div>- The filament of the magnetron carries dangerous voltages.</div><div><br /></div><div>- The magnetron filament is a low voltage circuit.</div></div><div><br /></div>",
+                "<div>The filament of the magnetron carries dangerous voltages.</div>"
+            ],
+            "flags": 0,
+            "guid": "o,Xbsa#GAL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-10A1 In the circuit shown in Fig. 8A4, U5 pins 1 and 4 are high and both are in the reset state. Assume one&nbsp;clock cycle occurs of Clk A followed by one cycle of Clk B. What are the output states of the two D-type flip&nbsp;flops?</div><div><br /></div><div><img src=\"paste-105578886070588.jpg\" /></div>",
+                "<div>Pin 5 high, Pin 9 high.</div>"
+            ],
+            "flags": 0,
+            "guid": "NTn0C;oUhq",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-10A2 If more light strikes the photodiode in Fig. 8A5, there will be:<div><br /></div><div><img src=\"paste-105630425678066.jpg\" /></div>",
+                "<div>More diode current.</div>"
+            ],
+            "flags": 0,
+            "guid": "uP$<ORYy#G",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "diodes",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-10A3 In the circuit shown in Fig. 8A6, which of the following is true?<div><br /></div><div><div>- With A and B high, Q1 is saturated and Q2 is off.</div><div><br /></div><div>- With either A or B low, Q1 is saturated and Q2 is off.</div><div><br /></div><div>- With A and B low, Q2 is on and Q4 is off.</div><div><br /></div><div>- With either A or B low, Q1 is off and Q2 is on.</div><div><br /></div><div><img src=\"paste-105677670318395.jpg\" /></div></div>",
+                "<div>With either A or B low, Q1 is saturated and Q2 is off.</div>"
+            ],
+            "flags": 0,
+            "guid": "t[uSGHqq<O",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-10A4 What is the correct value of RS in Fig. 8A7, if the voltage across the LED is 1.9 Volts with 5 Volts applied and If max equals 40 milliamps?<div><br /></div><div><img src=\"paste-105724914958664.jpg\" /></div>",
+                "<div>77 ohms.</div>"
+            ],
+            "flags": 0,
+            "guid": "ia8af_Mph;",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-10A5 The block diagram of a typical RADAR system microprocessor is shown in Fig. 8A2. Choose the most&nbsp;correct statement regarding this system.</div><div><br /></div><div><div>- The ALU is used for address decoding.</div><div><br /></div><div>- General registers are used for arithmetic manipulations.</div><div><br /></div><div>- The control unit executes arithmetic manipulations.</div><div><br /></div><div>- Address pointers are contained in the general registers.</div></div><div><br /></div><div><img src=\"paste-105772159599032.jpg\" /></div><div><br /></div>",
+                "<div>Address pointers are contained in the general registers.</div>"
+            ],
+            "flags": 0,
+            "guid": "Io50_*%yE",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-10A6 You are troubleshooting a component on a printed circuit board in a RADAR system while referencing&nbsp;the Truth Table in Fig. 8A8. What kind of integrated circuit is the component?</div><div><br /></div><div><img src=\"paste-2783138808030.jpg\" /></div>",
+                "<div>D-type Flip-Flop, 3-State, Inverting.</div>"
+            ],
+            "flags": 0,
+            "guid": "BgOBP[e0X4",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-11B1 The magnetron is used to:",
+                "<div>Generate the output signal at the proper operating frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "dya1:6Dr@-",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-11B2 The purpose of the modulator is to:",
+                "<div>Provide high voltage pulses of the proper shape and width to the magnetron.</div>"
+            ],
+            "flags": 0,
+            "guid": "M2Bm2l(76@",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-11B3 Which of the following statements about most modern RADAR transmitter power supplies is false?<div><br /></div><div><div>- High voltage supplies may produce voltages in excess of 5,000 volts AC.</div><div><br /></div><div>- There are usually separate low voltage and high voltage supplies.</div><div><br /></div><div>- Low voltage supplies use switching circuits to deliver multiple voltages.</div><div><br /></div><div>- Low voltage supplies may supply both AC and DC voltages.</div></div><div><br /></div>",
+                "<div>High voltage supplies may produce voltages in excess of 5,000 volts AC.</div>"
+            ],
+            "flags": 0,
+            "guid": "yb~XlUu<0T",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "power-supplies",
+                "radar",
+                "transmitters"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-11B4 The purpose of the Pulse Forming Network is to:",
+                "<div>Produce a pulse of the correct width.</div>"
+            ],
+            "flags": 0,
+            "guid": "d&d[1Cs`yL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-11B5 The purpose of the Synchronizer is to:",
+                "<div>Generate a timing signal that establishes the pulse repetition rate.</div>"
+            ],
+            "flags": 0,
+            "guid": "zk#TUz4^j5",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-11B6 Which of the following is not part of the transmitting system?<div><br /></div><div><div>- Magnetron.</div><div><br /></div><div>- Modulator.</div><div><br /></div><div>- Pulse Forming Network.</div><div><br /></div><div>- Klystron.</div></div><div><br /></div>",
+                "Klystron."
+            ],
+            "flags": 0,
+            "guid": "sS+_)ZZ[{-",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-12B1 High voltage is applied to what element of the magnetron?",
+                "<div>The cathode.</div>"
+            ],
+            "flags": 0,
+            "guid": "gb@F`Ajzga",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-12B2 The characteristic of the magnetron output pulse that relates to accurate range measurement is its:",
+                "<div>Rise time.</div>"
+            ],
+            "flags": 0,
+            "guid": "s{(lzE/<s&",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-12B3 What device is used as a transmitter in a marine RADAR system?",
+                "<div>Magnetron.</div>"
+            ],
+            "flags": 0,
+            "guid": "IJ}5HA5H1&",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-12B4 The magnetron is:",
+                "<div>A type of diode that requires an external magnetic field.</div>"
+            ],
+            "flags": 0,
+            "guid": "gj(MyZ7ffa",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-12B5 A negative voltage is commonly applied to the magnetron cathode rather than a positive voltage to the magnetron anode because:",
+                "The anode can be operated at ground potential for safety reasons."
+            ],
+            "flags": 0,
+            "guid": "OVf96kSMHa",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "safety"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-12B6 The anode of a magnetron is normally maintained at ground potential:",
+                "For safety purposes."
+            ],
+            "flags": 0,
+            "guid": "LzjM4E?qK%",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "safety"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-13B1 In a solid-state RADAR modulator, the duration of the transmitted pulse is determined by:",
+                "<div>The pulse forming network.</div>"
+            ],
+            "flags": 0,
+            "guid": "t`B+)ru%VL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-13B2 The modulation frequency of most RADAR systems is between:",
+                "<div>60 and 500 Hz.</div>"
+            ],
+            "flags": 0,
+            "guid": "q@OO;50L5=",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-13B3 A shipboard RADAR uses a PFN driving a magnetron cathode through a step-up transformer. This results in which type of modulation?",
+                "<div>Pulse modulation.</div>"
+            ],
+            "flags": 0,
+            "guid": "M`l?S^Jl)9",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-13B4 In a pulse modulated magnetron what device determines the shape and width of the pulse?",
+                "<div>Pulse Forming Network.</div>"
+            ],
+            "flags": 0,
+            "guid": "O?/c?m7#{<",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-13B5 What device(s) may act as the modulator of a RADAR system?",
+                "Thyratron or a silicon-controlled rectifier (SCR)."
+            ],
+            "flags": 0,
+            "guid": "t7-@qRg(8<",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-13B6 The purpose of a modulator in the transmitter section of a RADAR is to:",
+                "Provide the correct waveform to the transmitter."
+            ],
+            "flags": 0,
+            "guid": "x,EXAoQx2]",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-14B1 The pulse developed by the modulator may have an amplitude greater than the supply voltage. This is possible by:",
+                "<div>Employing a resonant charging choke.</div>"
+            ],
+            "flags": 0,
+            "guid": "CP[OEy-};q",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-14B2 Pulse transformers and pulse-forming networks are commonly used to shape the microwave energy burst RADAR transmitter. The switching devices most often used in such pulse-forming circuits are:",
+                "<div>SCR’s and Thyratrons.</div>"
+            ],
+            "flags": 0,
+            "guid": "H[R4|?!.Gl",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-14B3 The purpose of the pulse-forming network is to:",
+                "<div>Determine the width of the modulating pulses.</div>"
+            ],
+            "flags": 0,
+            "guid": "pC1ts{vD#",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-14B4 The shape and duration of the high-voltage pulse delivered to the magnetron is established by:",
+                "<div>An artificial delay line.</div>"
+            ],
+            "flags": 0,
+            "guid": "nM{b-KU54[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-14B5 Pulse-forming networks are usually composed of the following:",
+                "Series inductors and shunt capacitors."
+            ],
+            "flags": 0,
+            "guid": "c|Naoap4O7",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-14B6 An artificial transmission line is used for:",
+                "Determining the shape and duration of pulses."
+            ],
+            "flags": 0,
+            "guid": "nH,!>I+r*~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-15B1 The ferrite material in a circulator is used as a(an):",
+                "<div>Phase shifter.</div>"
+            ],
+            "flags": 0,
+            "guid": "M9,P@efY_4",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-15B2 In a circular resonant cavity with flat ends, the E-field and the H-field form with specific relationships. The:<div><br /></div><div><div>- E-lines are parallel to the top and bottom walls.</div><div><br /></div><div>- E-lines are perpendicular to the end walls.</div><div><br /></div><div>- H-lines are perpendicular to the side walls.</div><div><br /></div><div>- H-lines are circular to the end walls.</div></div><div><br /></div>",
+                "<div>E-lines are perpendicular to the end walls.</div>"
+            ],
+            "flags": 0,
+            "guid": "P-;*K1iQ<9",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-15B3 A ferrite circulator is most commonly used in what portion of a RADAR system?",
+                "<div>The duplexer.</div>"
+            ],
+            "flags": 0,
+            "guid": "IUX:?rK;1>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-15B4 A circulator provides what function in the RF section of a RADAR system?",
+                "<div>It replaces the TR cell and functions as a duplexer.</div>"
+            ],
+            "flags": 0,
+            "guid": "ngtt1ngp-.",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-15B5 A directional coupler has an attenuation of -30 db. A measurement of 100 milliwatts at the coupler indicates the power of the line is:",
+                "100 watts."
+            ],
+            "flags": 0,
+            "guid": "hl:-7!xkE",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-15B6 What is the purpose or function of the RADAR duplexer/circulator?",
+                "An electronic switch that allows the use of one antenna for both transmission and reception."
+            ],
+            "flags": 0,
+            "guid": "PmTevh?31n",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-16B1 The ATR box:<div><br /></div><div><div>- Protects the receiver from strong RADAR signals.</div><div><br /></div><div>- Prevents the received signal from entering the transmitter.</div><div><br /></div><div>- Turns off the receiver when the transmitter is on.</div><div><br /></div><div>- All of the above.</div></div><div><br /></div>",
+                "<div>Prevents the received signal from entering the transmitter.</div>"
+            ],
+            "flags": 0,
+            "guid": "OH%dC#bAI.",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-16B2 When a pulse RADAR is radiating, which elements in the TR box are energized?",
+                "<div>Both the TR and ATR tubes.</div>"
+            ],
+            "flags": 0,
+            "guid": "F`#imX<{O7",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-16B3 The TR box:",
+                "<div>Protects the receiver from the strong RADAR pulses and mutes the receiver when the transmitter is on.</div>"
+            ],
+            "flags": 0,
+            "guid": "Kmy[t;@S(y",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-16B4 What device is located between the magnetron and the mixer and prevents received signals from entering the magnetron?",
+                "The ATR tube."
+            ],
+            "flags": 0,
+            "guid": "nOOt?4San{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-16B5 A keep-alive voltage is applied to:</div><div><br /></div><div>- The crystal detector.&nbsp;</div><div><br /></div><div>- The ATR tube.&nbsp;</div><div><br /></div><div>- The TR tube.&nbsp;</div><div><br /></div><div>- The magnetron.&nbsp;</div><div><br /></div>",
+                "The TR tube."
+            ],
+            "flags": 0,
+            "guid": "C.$#6D-;n/",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-16B6 A DC keep-alive potential:",
+                "Is applied to a TR tube to make it more sensitive and partially ionizes the gas in a TR tube."
+            ],
+            "flags": 0,
+            "guid": "mWvD:K@~/O",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-17B1 What RADAR circuit determines the pulse repetition rate (PRR)?",
+                "<div>Timer (synchronizer circuit).</div>"
+            ],
+            "flags": 0,
+            "guid": "y(zcp(VwQQ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-17B2 The triggering section is also known as the:",
+                "<div>Synchronizer.</div>"
+            ],
+            "flags": 0,
+            "guid": "hX8w{kFgHM",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-17B3 Operation of any RADAR system begins in the:",
+                "<div>Triggering section.</div>"
+            ],
+            "flags": 0,
+            "guid": "bZ[6qY}WhY",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>8-17B4 The timer circuit:</div><div><br /></div><div>- Determines the pulse repetition rate (PRR).</div><div><br /></div><div>- Determines range markers.</div><div><br /></div><div>- Provides blanking and unblanking signals for the CRT.</div><div><br /></div><div>- All of the above</div></div><div><br /></div>",
+                "<div>All of the above</div>"
+            ],
+            "flags": 0,
+            "guid": "d2*y||tCzT",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "synchronizer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-17B5 Pulse RADARs require precise timing for their operation. Which type circuit below might best be used to provide these accurate timing pulses?<div><br /></div><div><div>- Single-swing blocking oscillator.</div><div><br /></div><div>- AFC controlled sinewave oscillator.</div><div><br /></div><div>- Non-symmetrical astable multivibrator.</div><div><br /></div><div>- Triggered flip-flop type multivibrator.</div></div><div><br /></div>",
+                "Single-swing blocking oscillator."
+            ],
+            "flags": 0,
+            "guid": "M=+SV,uFLR",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-17B6 Unblanking pulses are produced by the timer circuit. Where are they sent?",
+                "CRT."
+            ],
+            "flags": 0,
+            "guid": "EpSAj:$-5Q",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-18B1 An advantage of resonant charging is that it:",
+                "<div>Reduces the high-voltage power supply requirements.</div>"
+            ],
+            "flags": 0,
+            "guid": "ed[{>X6hpw",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-18B2 The characteristics of a field-effect transistor (FET) used in a modern RADAR switching power supply can be compared as follows:<div><br /></div><div><div>- “On” state compares to a bipolar transistor. “Off” state compares to a 1-Megohm resistor.</div><div><br /></div><div>- “On” state compares to a pure resistor. “Off” state compares to a mechanical relay.</div><div><br /></div><div>- “On” state compares to an low resistance inductor. “Off” state compares to a 10-Megohm resistor.</div><div><br /></div><div>- “On” state compares to a resistor. “Off” state compares to a capacitor.</div></div><div><br /></div><div><br /></div>",
+                "<div>“On” state compares to a pure resistor. “Off” state compares to a mechanical relay.</div>"
+            ],
+            "flags": 0,
+            "guid": "O;J{*@1`r?",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-18B3 A pulse-width modulator in a switching power supply is used to:",
+                "<div>Vary the duty cycle of the regulator switch to control the output voltage.</div>"
+            ],
+            "flags": 0,
+            "guid": "BPWDp7t<lu",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-18B4 In a fixed-frequency switching power supply, the pulse width of the switching circuit will increase when:",
+                "<div>The load impedance decreases.</div>"
+            ],
+            "flags": 0,
+            "guid": "Dpt=M$G4$~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-18B5 A major consideration for the use of a switching regulator power supply over a linear regulator is:",
+                "The overall efficiency of a switching regulator is much higher than a linear power supply."
+            ],
+            "flags": 0,
+            "guid": "v|w??|Wj43",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-18B6 Which of the following characteristics are true of a power MOSFET used in a RADAR switching supply?<div><br /></div><div><div>- Low input impedance; failure mode can be gate punch-through.</div><div><br /></div><div>- High input impedance; failure mode can be gate punch-through.</div><div><br /></div><div>- High input impedance; failure mode can be thermal runaway.</div><div><br /></div><div>- Low input impedance; failure mode can be gate breakdown.</div></div><div><br /></div>",
+                "High input impedance; failure mode can be gate punch-through."
+            ],
+            "flags": 0,
+            "guid": "Ix%9HqEr@8",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-19C1 Which of the following statements is true?<div><br /></div><div><div>- The front end of the receiver does not provide any amplification to the RADAR signal.</div><div><br /></div><div>- The mixer provides a gain of at least 6 db.</div><div><br /></div><div>- The I.F. amplifier is always a high gain, narrow bandwidth amplifier.</div><div><br /></div><div>- None of the above.</div></div><div><br /></div>",
+                "<div>The front end of the receiver does not provide any amplification to the RADAR signal.</div>"
+            ],
+            "flags": 0,
+            "guid": "y~M_nh4fAD",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "receivers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-19C2 Logarithmic receivers:<div><br /></div><div><div>- Can’t be damaged.</div><div><br /></div><div>- Can’t be saturated.</div><div><br /></div><div>- Should not be used in RADAR systems.</div><div><br /></div><div>- Have low sensitivity.</div></div><div><br /></div>",
+                "<div>Can’t be saturated.</div>"
+            ],
+            "flags": 0,
+            "guid": "IUds^O+:me",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-19C3 RADAR receivers are similar to:</div><div><br /></div><div>- FM receivers.</div><div><br /></div><div>- HF receivers.</div><div><br /></div><div>- T.V. receivers.</div><div><br /></div><div>- Microwave receivers.</div><div><br /></div>",
+                "<div>Microwave receivers.</div>"
+            ],
+            "flags": 0,
+            "guid": "n8!%?fImz3",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "receivers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-19C4 What section of the receiving system sends signals to the display system?",
+                "<div>Video amplifier.</div>"
+            ],
+            "flags": 0,
+            "guid": "m_Bc:W%w##",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-19C5 What is the main difference between an analog and a digital receiver?",
+                "The presence of decision circuitry to distinguish between “on” and “off” signal levels."
+            ],
+            "flags": 0,
+            "guid": "rYvdV%5V7~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-19C6 In a RADAR receiver, the RF power amplifier:",
+                "Does not exist."
+            ],
+            "flags": 0,
+            "guid": "fcsrpF$U[X",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-20C1 The diagram in Fig. 8C9 shows a simplified RADAR mixer circuit using a crystal diode as the first detector. What is the output of the circuit when no echoes are being received?<div><br /></div><div><img src=\"paste-2830383448270.jpg\" /></div>",
+                "<div>No output is developed.</div>"
+            ],
+            "flags": 0,
+            "guid": "doby)kG4Ph",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-20C2 In the receive mode, frequency conversion is generally accomplished by a:",
+                "<div>Crystal diode.</div>"
+            ],
+            "flags": 0,
+            "guid": "sDkn@VTQ!R",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-20C3 An RF mixer has what purpose in a RADAR system?",
+                "<div>Converts a low-level signal to a different frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "Bt|idz*,YI",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-20C4 In a RADAR unit, the mixer uses a:",
+                "<div>Silicon crystal or PIN diode.</div>"
+            ],
+            "flags": 0,
+            "guid": "IqUk/mN.iQ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-20C5 What component of a RADAR receiver is represented by block 49 in Fig. 8A1?<div><br /></div><div><img src=\"paste-2972117369118.jpg\" /></div>",
+                "<div>Crystal detector (the mixer).</div>"
+            ],
+            "flags": 0,
+            "guid": "p512&{cQTm",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "mixer",
+                "radar",
+                "receivers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-20C6 In a RADAR unit, the mixer uses:",
+                "PIN diodes and silicon crystals."
+            ],
+            "flags": 0,
+            "guid": "C2>KQ5+!!?",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-21C1 The error voltage from the discriminator is applied to the:",
+                "<div>Repeller (reflector) of the klystron.</div>"
+            ],
+            "flags": 0,
+            "guid": "M#>./_2*5u",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-21C2 In a RADAR unit, the local oscillator is a:",
+                "<div>Klystron.</div>"
+            ],
+            "flags": 0,
+            "guid": "bo#.3ru/#J",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-21C3 What component of a RADAR receiver is represented by block 48 in Fig. 8A1?<div><br /></div><div><img src=\"paste-2967822401822.jpg\" /></div>",
+                "<div>Klystron (local oscillator).</div>"
+            ],
+            "flags": 0,
+            "guid": "P/nXL1HuiX",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "klystron",
+                "maritime",
+                "oscillator",
+                "radar",
+                "receivers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-21C4 What device(s) could be used as the local oscillator in a RADAR receiver?",
+                "<div>Klystron and a Gunn Diode</div>"
+            ],
+            "flags": 0,
+            "guid": "Ey;bN[ETeP",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-21C5 The klystron local oscillator is constantly kept on frequency by:",
+                "<div>The Automatic Frequency Control circuit.</div>"
+            ],
+            "flags": 0,
+            "guid": "xX<1<p`Si{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-21C6 How may the frequency of the klystron be varied?",
+                "Small changes can be made by adjusting the repeller voltage and large changes can be made by adjusting the size of the resonant cavity."
+            ],
+            "flags": 0,
+            "guid": "G9Ym?boa=B",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-22C1 Overcoupling in a RADAR receiver will cause?",
+                "<div>Oscillations.</div>"
+            ],
+            "flags": 0,
+            "guid": "kC$7>bvpjW",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-22C2 The usual intermediate frequency of a shipboard RADAR unit is:",
+                "<div>30 or 60 MHz.</div>"
+            ],
+            "flags": 0,
+            "guid": "mVD4p>?Q{/",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-22C3 The I.F. Amplifier bandwidth is:",
+                "<div>Wide for short ranges and narrow for long ranges.</div>"
+            ],
+            "flags": 0,
+            "guid": "`Dm~sX@ZY",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-22C4 A logarithmic IF amplifier is preferable to a linear IF amplifier in a RADAR receiver because it:",
+                "<div>Has a greater dynamic range.</div>"
+            ],
+            "flags": 0,
+            "guid": "tP@y?xJu&m",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-22C5 The high-gain IF amplifiers in a RADAR receiver may amplify a 2 microvolt input signal to an output level of 2 volts. This amount of amplification represents a gain of:",
+                "120 db."
+            ],
+            "flags": 0,
+            "guid": "d`R7R(@Oh6",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-22C6 In a RADAR receiver AGC and IAGC can vary between:",
+                "20 and 40 db."
+            ],
+            "flags": 0,
+            "guid": "DA/ZX*g3E+",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-23C1 Which of the following statements is correct?<div><br /></div><div><div>- The video amplifier is located between the mixer and the I.F. amplifier.</div><div><br /></div><div>- The video amplifier operates between 60 MHz and 120 Mhz.</div><div><br /></div><div>- The video amplifier is located between the I.F. amplifier and the display system.</div><div><br /></div><div>- The video amplifier is located between the local oscillator and the mixer.</div></div><div><br /></div>",
+                "<div>The video amplifier is located between the I.F. amplifier and the display system.</div>"
+            ],
+            "flags": 0,
+            "guid": "rx_IruwB*v",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "video"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-23C2 Video amplifiers in pulse RADAR receivers must have a broad bandwidth because:",
+                "<div>Weak pulses must be amplified.</div>"
+            ],
+            "flags": 0,
+            "guid": "sBUv<]CefB",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-23C3 In video amplifiers, compensation for the input and output stage capacitances must be accomplished to prevent distorting the video pulses. This compensation is normally accomplished by connecting:",
+                "<div>An inductor in series with the input capacitance and an inductor in parallel with the output capacitance.</div>"
+            ],
+            "flags": 0,
+            "guid": "msV2}PKTB_",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-23C4 Which of the following signals is not usually an input to the video amplifier?<div><br /></div><div><div>- Resolver.</div><div><br /></div><div>- Range.</div><div><br /></div><div>- Brilliance.</div><div><br /></div><div>- Contrast.</div></div><div><br /></div>",
+                "Resolver."
+            ],
+            "flags": 0,
+            "guid": "Qu$:&=@]jn",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "amplifiers",
+                "maritime",
+                "radar",
+                "resolvers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-23C5 Which of the following signals are usually an input to the video amplifier?<div><br /></div><div><div>- Range.</div><div><br /></div><div>- Brilliance.</div><div><br /></div><div>- Contrast.</div><div><br /></div><div>- All of the above.</div></div><div><br /></div>",
+                "<div>All of the above.</div>"
+            ],
+            "flags": 0,
+            "guid": "vRkQ3$^rZ5",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-23C6 The video (second) detector in a pulse modulated RADAR system would most likely use a/an:",
+                "Diode detector."
+            ],
+            "flags": 0,
+            "guid": "e>o#=X`f}q",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-24C1 The AFC system is used to:",
+                "<div>Control the frequency of the klystron.</div>"
+            ],
+            "flags": 0,
+            "guid": "Ez!]Hr`sFI",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-24C2 A circuit used to develop AFC voltage in a RADAR receiver is called the:",
+                "<div>Discriminator.</div>"
+            ],
+            "flags": 0,
+            "guid": "qZ|x%KbHiy",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-24C3 In the AFC system, the discriminator compares the frequencies of the:",
+                "<div>Magnetron and klystron.</div>"
+            ],
+            "flags": 0,
+            "guid": "bMDD^b8Y>i",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-24C4 An AFC system keeps the receiver tuned to the transmitted signal by varying the frequency of the:",
+                "<div>Local oscillator.</div>"
+            ],
+            "flags": 0,
+            "guid": "ehU&HrD`N~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-24C5 A RADAR transmitter is operating on 3.0 GHz and the reflex klystron local oscillator, operating at 3.060&nbsp;GHz, develops a 60 MHz IF. If the magnetron drifts higher in frequency, the AFC system must cause the klystron&nbsp;repeller plate to become:</div>",
+                "<div>More negative.</div>"
+            ],
+            "flags": 0,
+            "guid": "u?m.g1zDl$",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-24C6 What component is block 50 in Fig. 8A1?<div><br /></div><div><img src=\"paste-2967822401822.jpg\" /></div>",
+                "<div>Discriminator.</div>"
+            ],
+            "flags": 0,
+            "guid": "QeT[62*>4&",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar",
+                "receivers"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-25C1 The STC circuit is used to:",
+                "<div>Decrease sea return on a RADAR receiver</div>"
+            ],
+            "flags": 0,
+            "guid": "KWsY~[UY[c",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-25C2 The STC circuit:",
+                "<div>Decreases sea return on the PPI scope.</div>"
+            ],
+            "flags": 0,
+            "guid": "A^zAR}0fp^",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-25C3 Sea return is:",
+                "<div>The reflection of RADAR signals from nearby waves.</div>"
+            ],
+            "flags": 0,
+            "guid": "m#fIB,_JzT",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-25C4 Sea clutter on the RADAR scope cannot be effectively reduced using front panel controls. What circuit would you suspect is faulty?",
+                "<div>Sensitivity Time Control (STC) circuit.</div>"
+            ],
+            "flags": 0,
+            "guid": "yy`LmSp^5$",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-25C5 What circuit controls the suppression of sea clutter?",
+                "STC circuit."
+            ],
+            "flags": 0,
+            "guid": "Pm7{J6!xt-",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-25C6 The sensitivity time control (STC) circuit:",
+                "Decreases the sensitivity of the receiver for close objects."
+            ],
+            "flags": 0,
+            "guid": "MS(^]B;M#.",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-26C1 Prior to making “power-on” measurements on a switching power supply, you should be familiar with the supply because of the following:<div><br /></div><div><div>- You need to know where the filter capacitors are so they can be discharged.</div><div><br /></div><div>- If it does not use a line isolation transformer you may destroy the supply with grounded test equipment.</div><div><br /></div><div>- It is not possible to cause a component failure by using ungrounded test equipment.</div><div><br /></div><div>- So that measurements can be made without referring to the schematic.</div></div><div><br /></div>",
+                "<div>If it does not use a line isolation transformer you may destroy the supply with grounded test equipment.</div>"
+            ],
+            "flags": 0,
+            "guid": "k}#U-#otu^",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-26C2 A constant frequency switching power supply regulator with an input voltage of 165 volts DC, and a switching frequency of 20 kHz, has an “ON” time of 27 microseconds when supplying 1 ampere to its load. What is the output voltage across the load?",
+                "<div>89.1 volts DC.</div>"
+            ],
+            "flags": 0,
+            "guid": "wu-zN{N/8t",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-26C3 The circuit shown in Fig. 8C10 is the output of a switching power supply. Measuring from the junction of CR6, CR7 and L1 to ground with an oscilloscope, what waveform would you expect to see?<div><br /></div><div><img src=\"paste-105853763977537.jpg\" /></div>",
+                "<div>Pulsating DC much higher than line frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "j.)nnjLIRl",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "power-supplies",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-26C4 With regard to the comparator shown in Fig. 8C11, the input is a sinusoid. Nominal high level output of&nbsp;the comparator is 4.5 volts. Choose the most correct statement regarding the input and output.</div><div><br /></div><div><img src=\"paste-3083786518744.jpg\" /></div><div><br /></div><div><br /></div><div><div><br /></div><div><div>- The leading edge of the output waveform occurs 180 degrees after positive zero crossing of the input</div><div>waveform.</div><div><br /></div><div>- The rising edge of the output waveform trails the positive zero crossing of the input waveform by 45</div><div>degrees.</div><div><br /></div><div>- The rising edge of the output waveform trails the negative zero crossing of the input waveform by 45</div><div>degrees.</div><div><br /></div><div>- The rising edge of the output waveform trails the positive peak of the input waveform by 45 degrees.</div></div></div><div><br /></div>",
+                "<div>The leading edge of the output waveform occurs 180 degrees after positive zero crossing of the input</div><div>waveform.</div>"
+            ],
+            "flags": 0,
+            "guid": "09Rd!K~<t",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-26C5 When monitoring the gate voltage of a power MOSFET in the switching power supply of a modern&nbsp;RADAR, you would expect to see the gate voltage change from “low” to “high” by how much?</div>",
+                "<div>Greater than 2 volts.</div>"
+            ],
+            "flags": 0,
+            "guid": "t5m.r=HQqt",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-26C6 The nominal output high of the comparator shown in Fig. 8C11 is 4.5 volts. Choose the most correct&nbsp;statement which describes the trip points.</div><div><br /></div><div><img src=\"paste-2658584756439.jpg\" /></div><div><br /></div><div><div>- Upper trip point is 4.5 volts. Lower trip point is approximately 0 volts.</div><div><br /></div><div>- Upper trip point is 2.5 volts. Lower trip point is approximately 2.0 volts.</div><div><br /></div><div>- Upper trip point is 900 microvolts. Lower trip point is approximately 0 volts.</div><div><br /></div><div>- Upper trip point is +1.285 volts. Lower trip point is -1.285 volts.</div></div><div><br /></div>",
+                "Upper trip point is +1.285 volts. Lower trip point is -1.285 volts."
+            ],
+            "flags": 0,
+            "guid": "b5RNn,VQ<g",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "comparators",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-27C1 One of the best methods of reducing noise in a RADAR receiver is?",
+                "<div>Isolation.</div>"
+            ],
+            "flags": 0,
+            "guid": "DRF-<U+=#0",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-27C2 The primary cause of noise in a RADAR receiver can be attributed to:",
+                "<div>Thermal noise caused by RADAR receiver components.</div>"
+            ],
+            "flags": 0,
+            "guid": "q5pt]c9pf>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-27C3 Noise can appear on the LCD as:",
+                "<div>Erratic video and sharp changes in intensity.</div>"
+            ],
+            "flags": 0,
+            "guid": "KM7z^_.kDK",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-27C4 RADAR interference on a communications receiver appears as:",
+                "<div>A steady tone.</div>"
+            ],
+            "flags": 0,
+            "guid": "yJw:Y?G=n}",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-27C5 In a RADAR receiver the most common types of interference are?",
+                "Weather and sea return."
+            ],
+            "flags": 0,
+            "guid": "rD#x$tEwXX",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-27C6 Noise can:</div><div><br /></div><div>- Mask larger targets.</div><div><br /></div><div>- Change bearings.</div><div><br /></div><div>- Mask small targets.</div><div><br /></div><div>- Increase RADAR transmitter interference.</div><div><br /></div>",
+                "Mask small targets."
+            ],
+            "flags": 0,
+            "guid": "s7Q9]iVg`H",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-28C1 The purpose of the discriminator circuit in a RADAR set is to:<div><br /></div><div><div><div>- Discriminate against nearby objects.</div><div><br /></div><div>- Discriminate against two objects with very similar bearings.</div><div><br /></div><div>- Generate a corrective voltage for controlling the frequency of the klystron local oscillator.</div><div><br /></div><div>- Demodulate or remove the intelligence from the FM signal.</div></div></div><div><br /></div>",
+                "<div>Generate a corrective voltage for controlling the frequency of the klystron local oscillator.</div>"
+            ],
+            "flags": 0,
+            "guid": "opqN}>aQw+",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-28C2 The MTI circuit:",
+                "<div>Is a filter, which blocks out stationary targets, allowing only moving targets to be detected.</div>"
+            ],
+            "flags": 0,
+            "guid": "EAjxne~=>K",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-28C3 Where is a RF attenuator used in a RADAR unit?",
+                "<div>Between the magnetron and the AFC section of the receiver.</div>"
+            ],
+            "flags": 0,
+            "guid": "AE.`KQQFeV",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-28C4 The condition known as “glint” refers to a shifting of clutter with each RADAR pulse and can be caused by a:",
+                "<div>Improperly functioning MTI filter.</div>"
+            ],
+            "flags": 0,
+            "guid": "xtT=#,<4U1",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-28C5 An ion discharge (TR) cell is used to:",
+                "Protect the receiver mixer during the transmit pulse."
+            ],
+            "flags": 0,
+            "guid": "x7H9f]L/@7",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-28C6 When the receiver employs an MTI circuit:",
+                "Only moving targets will be displayed."
+            ],
+            "flags": 0,
+            "guid": "LE^>-jC81u",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-29D1 Modern liquid crystal displays have a pixel count of:",
+                "<div>Greater than 200 pixels per inch.</div>"
+            ],
+            "flags": 0,
+            "guid": "hs`b7AVPTb",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-29D2 Voltages used in CRT anode circuits are in what range of value?",
+                "<div>10-50 kV.</div>"
+            ],
+            "flags": 0,
+            "guid": "epF+{BYjg3",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-29D3 The purpose of the aquadag coating on the CRT is:<div><div><br /></div><div>- To protect the electrons from strong electric fields.</div><div><br /></div><div>- To act as a second anode.</div><div><br /></div><div>- To attract secondary emissions from the CRT screen.</div><div><br /></div><div>- All of the above</div></div><div><br /></div>",
+                "<div><div>All of the above</div></div>"
+            ],
+            "flags": 0,
+            "guid": "KD-i71pZPe",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-29D4 LCD patterns are formed when:",
+                "<div>Current passes through the crystal causing them to align.</div>"
+            ],
+            "flags": 0,
+            "guid": "ILf#g]hV`c",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-29D5 In a raster-type display, the electron beam is scanned:",
+                "Horizontally and vertically across the CRT face."
+            ],
+            "flags": 0,
+            "guid": "i2uz2Qkq5c",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-29D6 Select the statement, which is most correct regarding a raster scan display.<div><br /></div><div><div>- Raster displays are the same as conventional T.V. receivers.</div><div><br /></div><div>- The scan rate for a RADAR system is 30 frames per second.</div><div><br /></div><div>- Raster scanning is controlled by clock pulses and requires an address bus.</div><div><br /></div><div>- Raster scanning is not used in RADAR systems.</div></div><div><br /></div>",
+                "Raster scanning is controlled by clock pulses and requires an address bus."
+            ],
+            "flags": 0,
+            "guid": "y,kyk:eBWU",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-30D1 What are the usual input signals to the video amplifier?",
+                "<div>- Low level video.</div><div><br /></div><div>- Fixed range rings.</div><div><br /></div><div>- Variable range rings.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "q*)~z[p4Q,",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-30D2 Which of the following would not normally be an input to the video amplifier?<div><br /></div><div><div>- Fixed range rings.</div><div><br /></div><div>- Variable range rings.</div><div><br /></div><div>- Resolver signal.</div><div><br /></div><div>- Low level video.</div></div><div><br /></div>",
+                "<div>Resolver signal.</div>"
+            ],
+            "flags": 0,
+            "guid": "p(&Rgc/G|z",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-30D3 The purpose of the sweep amplifier is to:",
+                "<div>Drive the CRT deflection coils.</div>"
+            ],
+            "flags": 0,
+            "guid": "A%GqQGR&=&",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-30D4 How many deflection coils are driven by the sweep amplifier?",
+                "2"
+            ],
+            "flags": 0,
+            "guid": "AttsnNKB#T",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-30D5 The main purpose of the sweep generator is to provide:",
+                "The drive signal to the sweep amplifier."
+            ],
+            "flags": 0,
+            "guid": "f_.q77_K3B",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-30D6 The main purpose of the video amplifier is to provide:",
+                "Composite video to the cathode of the CRT."
+            ],
+            "flags": 0,
+            "guid": "NS.YQ)&(}P",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-31D1 Timing circuits are used to provide what function?",
+                "<div>Develop synchronizing pulses for the transmitter system.</div>"
+            ],
+            "flags": 0,
+            "guid": "d1L40CCuJo",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-31D2 The circuit that develops timing signals is called the:",
+                "<div>Synchronizer.</div>"
+            ],
+            "flags": 0,
+            "guid": "PB8KWiD;a0",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-31D3 Which of the following functions is not affected by the timing circuit?<div><br /></div><div><div>- Resolver output.</div><div><br /></div><div>- Pulse repetition frequency.</div><div><br /></div><div>- Sweep drive.</div><div><br /></div><div>- Modulation.</div></div><div><br /></div>",
+                "<div>Resolver output.</div>"
+            ],
+            "flags": 0,
+            "guid": "qJZ&Y;k!5]",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-31D4 The synchronizer primarily affects the following circuit or function:",
+                "<div>Modulator.</div>"
+            ],
+            "flags": 0,
+            "guid": "EYCD~h3L^)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-31D5 The output from the synchronizer usually consists of a:",
+                "Pulse or square wave."
+            ],
+            "flags": 0,
+            "guid": "rgYa2WQ1@t",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-31D6 The sweep drive is initiated by what circuit?",
+                "Synchronizer."
+            ],
+            "flags": 0,
+            "guid": "jP!^F683xe",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-32D1 Accurate range markers must be developed using very narrow pulses. A circuit that could be used to provide these high-quality pulses for the CRT is a:",
+                "<div>Blocking oscillator.</div>"
+            ],
+            "flags": 0,
+            "guid": "bEoCJT]_uk",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-32D2 Range markers are determined by:",
+                "<div>The timer.</div>"
+            ],
+            "flags": 0,
+            "guid": "Mlr=j;%Po(",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-32D3 A gated LC oscillator, operating at 27 kHz, is being used to develop range markers. If each cycle is converted to a range mark, the range between markers will be:",
+                "<div>3 nautical miles.</div>"
+            ],
+            "flags": 0,
+            "guid": "wt<Scao7:;",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-32D4 What would be the frequency of a range ring marker oscillator generating range rings at 10 nautical miles intervals?",
+                "<div>8 kHz</div>"
+            ],
+            "flags": 0,
+            "guid": "D(WP3_XyE[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-32D5 What is the distance between range markers if the controlling oscillator is operating at 20 kHz?",
+                "4 nautical miles."
+            ],
+            "flags": 0,
+            "guid": "qrXbkAJ[k,",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-32D6 What would be the frequency of a range ring marker oscillator generating range rings at intervals of 0.25 nautical miles?",
+                "322 kHz"
+            ],
+            "flags": 0,
+            "guid": "M=?pRUSj43",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-33D1 The variable range marker signal is normally fed to the input of the:",
+                "<div>Video amplifier.</div>"
+            ],
+            "flags": 0,
+            "guid": "lAv3-M!%4h",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-33D2 The purpose of the variable range marker is to:",
+                "<div>Provide an accurate means of determining the range of a moving target.</div>"
+            ],
+            "flags": 0,
+            "guid": "(+?Nfb+8a",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-33D3 How is the variable range marker usually adjusted for accuracy?",
+                "<div>The minimum and maximum ranges are aligned with the matching fixed range ring.</div>"
+            ],
+            "flags": 0,
+            "guid": "skJbk9,ezA",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-33D4 The panel control for the variable range marker is normally a:",
+                "<div>Variable resistor.</div>"
+            ],
+            "flags": 0,
+            "guid": "P+i$1oarJ$",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-33D5 An important component of the VRM system is the:",
+                "Shift register."
+            ],
+            "flags": 0,
+            "guid": "c!5Z]8Fp>>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-33D6 Which of the following statements about the Variable Range Marker system is correct?<div><br /></div><div><div>- The VRM is an auxiliary output of the fixed range marker oscillator.</div><div><br /></div><div>- The VRM system develops a single adjustable range ring.</div><div><br /></div><div>- The VRM system is calibrated using a frequency counter.</div><div><br /></div><div>- The VRM system is controlled by a crystal oscillator.</div></div><div><br /></div>",
+                "The VRM system develops a single adjustable range ring."
+            ],
+            "flags": 0,
+            "guid": "k%X%2Br4+L",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-34D1 The purpose of the Electronic Bearing Line is to:<div><br /></div>",
+                "<div>Measure the bearing of a specific target.</div>"
+            ],
+            "flags": 0,
+            "guid": "GE=ZW:}=0c",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-34D2 The Electronic Bearing Line is:",
+                "<div>A line from your own vessel to a specific target.</div>"
+            ],
+            "flags": 0,
+            "guid": "B{[nhoKV/_",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-34D3 Which of the following inputs is required to indicate azimuth?</div><div><br /></div><div>- Gyro signals.</div><div><br /></div><div>- Synchronizer</div><div><br /></div><div>- Resolver.</div><div><br /></div><div>- Range rings.</div><div><br /></div>",
+                "<div>Gyro signals.</div>"
+            ],
+            "flags": 0,
+            "guid": "I,QPK:fs4j",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-34D4 Bearing information from the gyro is used to provide the following:<div><br /></div><div>- The heading of the nearest target.</div><div><br /></div><div><div>- Range and bearing to the nearest target.</div><div><br /></div><div>- Vessel’s own heading.</div><div><br /></div><div>- The range of a selected target.</div></div><div><br /></div>",
+                "<div>Vessel’s own heading.</div>"
+            ],
+            "flags": 0,
+            "guid": "LG+ncZOHS|",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-34D5 Which of the following statements about “true bearing” is correct?<div><br /><div><div>- The ship’s heading flasher is at the top of the screen.</div><div><br /></div><div>- True North is at the top of the screen and the heading flasher indicates the vessel’s course.</div><div><br /></div><div>- The true bearing of the nearest target is indicated.</div><div><br /></div><div>- The relative bearing of the nearest target is indicated.</div></div></div><div><br /></div>",
+                "<div>True North is at the top of the screen and the heading flasher indicates the vessel’s course.</div>"
+            ],
+            "flags": 0,
+            "guid": "IrRQx-_uHS",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-34D6 A true bearing presentation appears as follows:",
+                "North is at the top of the display and the ship’s heading flasher indicates the vessel’s course."
+            ],
+            "flags": 0,
+            "guid": "CHS&p){1i9",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-35D1 In a digitized RADAR, the 360 degree sweep is divided into how many digitized segments?",
+                "<div>4,096</div>"
+            ],
+            "flags": 0,
+            "guid": "r5Re](RCKV",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-35D2 While troubleshooting a memory problem in a raster scan RADAR, you discover that the “REFRESH” cycle is not operating correctly. What type of memory circuit are you working on?",
+                "<div>DRAM</div>"
+            ],
+            "flags": 0,
+            "guid": "mC/)w!7&mR",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-35D3 The term DRAM stands for:",
+                "<div>Dynamic random access memory.</div>"
+            ],
+            "flags": 0,
+            "guid": "e-SfW;+-BB",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-35D4 How does the dual memory function reduce sea clutter?",
+                "<div>Successive sweeps are digitized and compared. Only signals appearing in both sweeps are displayed.</div>"
+            ],
+            "flags": 0,
+            "guid": "pe`!z^$]18",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-35D5 How many sequential memory cells with target returns are required to display the target?",
+                "2"
+            ],
+            "flags": 0,
+            "guid": "F3[,^9#J6)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-35D6 What is the primary purpose of display system memory?",
+                "Eliminate fluctuating targets such as sea return."
+            ],
+            "flags": 0,
+            "guid": "M0OLE^M>|%",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-36D1 The ship’s speed indication on the ARPA display can be set manually, but does not change with changes in the vessel’s speed. What other indication would point to a related equipment failure?",
+                "<div>“LOG OUT” is displayed on the ARPA indicator.</div>"
+            ],
+            "flags": 0,
+            "guid": "b6&;ezNU9*",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-36D2 What does the term ARPA/CAS refer to?",
+                "<div>The device which acquires and tracks targets that are displayed on the RADAR indicator’s CRT.</div>"
+            ],
+            "flags": 0,
+            "guid": "CVW1D&pDnx",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-36D3 Which of the following would not be considered an input to the computer of a collision avoidance system?<div><br /></div><div><div>- Own ship’s exact position from navigation satellite receiver.</div><div><br /></div><div>- Own ship’s gyrocompass heading.</div><div><br /></div><div>- Own ship’s speed from Doppler log.</div><div><br /></div><div>- Own ship’s wind velocity from an anemometer.</div></div><div><br /></div>",
+                "<div>Own ship’s wind velocity from an anemometer.</div>"
+            ],
+            "flags": 0,
+            "guid": "F@%:*]qs6a",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-36D4 Which answer best describes a line on the display which indicates a target’s position. The speed is shown by the length of the line and the course by the direction of the line.<div><br /></div><div><div>- Vector.</div><div><br /></div><div>- Electronic Bearing Line.</div><div><br /></div><div>- Range Marker.</div><div><br /></div><div>- Heading Marker.</div></div><div><br /></div>",
+                "<div>Vector.</div>"
+            ],
+            "flags": 0,
+            "guid": "Ji:n.is]R]",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-36D5 What is the purpose or function of the “Trial Mode” used in most ARPA equipment?",
+                "It is used to allow results of proposed maneuvers to be assessed."
+            ],
+            "flags": 0,
+            "guid": "t^^=?[A|*;",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-36D6 The ARPA term CPA refers to:",
+                "The closest point a ship or target will approach your own ship.&nbsp;<div><br /></div><div>[Edit: The acronym \"CPA\" here stands for \"closest point of approach\"]</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "D7UZ*H*_%V",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "arpa",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-37D1 The display power supply provides the following:<div><br /></div><div><div>- +18 volts DC for the pulse forming network.</div><div><br /></div><div>- 5 volts DC for logic circuits and ± 12 volts DC for analog and sweep circuits.</div><div><br /></div><div>- 80 volts AC for the antenna resolver circuits.</div><div><br /></div><div>- All of the above</div></div><div><br /></div>",
+                "<div>5 volts DC for logic circuits and ± 12 volts DC for analog and sweep circuits.</div>"
+            ],
+            "flags": 0,
+            "guid": "u&VX4).}}1",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "power-supplies",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-37D2 The display power supply provides the following:<div><br /></div><div><div>- 5 volts DC for logic circuits.</div><div><br /></div><div>- ± 12 volts DC for analog and sweep circuits.</div><div><br /></div><div>- 17kV DC for the CRT HV anode.</div><div><br /></div><div>- All of the above</div></div><div><br /></div>",
+                "<div>All of the above</div>"
+            ],
+            "flags": 0,
+            "guid": "xoJ];jrxdc",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-37D3 In a display system power supply what is the purpose of the chopper?",
+                "<div>It acts as an electronic switch between the raw DC output and the inverter.</div>"
+            ],
+            "flags": 0,
+            "guid": "lKc[W8]G)P",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-37D4 In a display system power supply, what is the purpose of the inverter?",
+                "<div>Produces the pulsed DC input voltage to the power transformer.</div>"
+            ],
+            "flags": 0,
+            "guid": "DT_4YUpXCR",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-37D5 What would be a common switching frequency for a display system power supply?",
+                "18 kHz"
+            ],
+            "flags": 0,
+            "guid": "l|UBKS$HZ6",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-37D6 What display system power supply output would use a tripler circuit?",
+                "The HV supply for the CRT anode."
+            ],
+            "flags": 0,
+            "guid": "v/+/tiv)-H",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-38D1 The heading flash is a momentary intensification of the sweep line on the PPI presentation. Its function is to:",
+                "<div>Inform the operator of the dead-ahead position on the PPI scope.</div>"
+            ],
+            "flags": 0,
+            "guid": "PNFx.<Lr7*",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-38D2 The major advantage of digitally processing a RADAR signal is:",
+                "<div>Enhancement of weak target returns.</div>"
+            ],
+            "flags": 0,
+            "guid": "MTRTfavfOy",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-38D3 In order to ensure that a practical filter is able to remove undesired components from the output of an analog-to-digital converter, the sampling frequency should be:",
+                "<div>Greater than two times the highest component of the sampled frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "5bw.:DgFY",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-38D4 Bearing resolution is:",
+                "<div>The ability to distinguish two adjacent targets of equal distance.</div>"
+            ],
+            "flags": 0,
+            "guid": "l]kKO$U,a:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-38D5 The output of an RC integrator, when driven by a square wave with a period of much less than one time constant is a:",
+                "<div>Triangle wave.</div>"
+            ],
+            "flags": 0,
+            "guid": "MBcD)g?5xE",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-38D6 How do you eliminate stationary objects such as trees, buildings, bridges, etc., from the PPI presentation?",
+                "Use a discriminator as a second detector."
+            ],
+            "flags": 0,
+            "guid": "s1V.jdNbD>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-39E1 Slotted waveguide arrays, when fed from one end exhibit:",
+                "<div>Frequency scan.</div>"
+            ],
+            "flags": 0,
+            "guid": "Jl*5$~2dvG",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-39E2 A typical shipboard RADAR antenna is a:",
+                "<div>Slotted waveguide array.</div>"
+            ],
+            "flags": 0,
+            "guid": "obzts0s:-:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-39E3 Good bearing resolution largely depends upon:",
+                "<div>A narrow antenna beam in the horizontal plane.</div>"
+            ],
+            "flags": 0,
+            "guid": "oW)=2.v>;d",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-39E4 The center of the transmitted lobe from a slotted waveguide array is:",
+                "Several degrees offset from a line perpendicular to the antenna."
+            ],
+            "flags": 0,
+            "guid": "ll-F%%l,W^",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-39E5 How does antenna length affect the horizontal beamwidth of the transmitted signal?",
+                "The longer the antenna the narrower the horizontal beamwidth."
+            ],
+            "flags": 0,
+            "guid": "eM[Hx[S+1(",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-39E6 What is the most common type of RADAR antenna used aboard commercial maritime vessels?",
+                "Slotted waveguide array."
+            ],
+            "flags": 0,
+            "guid": "B$oNrYyN(L",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-40E1 The VSWR of a microwave transmission line device might be measured using:",
+                "<div>A dual directional coupler, a power meter, and a network analyzer.</div>"
+            ],
+            "flags": 0,
+            "guid": "xG_GRm;>1Z",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-40E2 The impedance total (ZO) of a transmission line can be calculated by ZO = √L/C when L and C are known. When a section of transmission line contains 250 microhenries of L and 1000 picofarads of C, its impedance total (ZO) will be:",
+                "<div>500 ohms.</div>"
+            ],
+            "flags": 0,
+            "guid": "fbNh1~3IG6",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-40E3 If long-length transmission lines are not properly shielded and terminated:",
+                "<div>Communications receiver interference might result.</div>"
+            ],
+            "flags": 0,
+            "guid": "uX_]fOt_=.",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-40E4 A certain length of transmission line has a characteristic impedance of 72 ohms. If the line is cut at its center, each half of the transmission line will have a ZO of:",
+                "<div>72 ohms.</div>"
+            ],
+            "flags": 0,
+            "guid": "D*meD~*(o{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-40E5 Standing waves on a transmission line may be an indication that:",
+                "<div>Some of the energy is not absorbed by the load.</div>"
+            ],
+            "flags": 0,
+            "guid": "r_2o*=5^Lz",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-40E6 What precautions should be taken with horizontal waveguide runs?",
+                "They should be sloped slightly downwards at the elbow and a small drain hole drilled in the elbow."
+            ],
+            "flags": 0,
+            "guid": "N)8r:PHFe)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-41E1 The position of the PPI scope sweep must indicate the position of the antenna. The sweep and antenna positions are frequently kept in synchronization by the use of:",
+                "<div>Synchro systems.</div>"
+            ],
+            "flags": 0,
+            "guid": "H6@G@7jP()",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-41E2 On a basic synchro system, the angular information is carried on the:",
+                "<div>Stator lines.</div>"
+            ],
+            "flags": 0,
+            "guid": "Il~)~f}d|X",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-41E3 What is the most common type of antenna position indicating device used in modern RADARs?",
+                "<div>Resolvers.</div>"
+            ],
+            "flags": 0,
+            "guid": "k9w+&XnW16",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-41E4 Which of the following statements about antenna resolvers is correct?<div><br /></div><div><div>- Most resolvers contain a rotor winding and a delta stator winding.</div><div><br /></div><div>- Resolvers consist of a two rotor windings and two stator windings that are 90 degrees apart.</div><div><br /></div><div>- The basic resolver contains a rotor winding and two stator windings that are 90 degrees apart.</div><div><br /></div><div>- Resolvers consist of a \"Y\" connected rotor winding and a delta connected stator winding.</div></div><div><br /></div>",
+                "The basic resolver contains a rotor winding and two stator windings that are 90 degrees apart."
+            ],
+            "flags": 0,
+            "guid": "NBIRzv{>(Y",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-41E5 An antenna synchro transmitter is composed of the following:<div><br /></div><div><div>- Three rotor and two stator windings.</div><div><br /></div><div>- Two rotor and three stator windings.</div><div><br /></div><div>- Three rotor and three stator windings.</div><div><br /></div><div>- A single rotor and 3 stator windings.</div></div><div><br /></div>",
+                "Two rotor and three stator windings."
+            ],
+            "flags": 0,
+            "guid": "Pl,3;Ggujc",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-41E6 RADAR antenna direction must be sent to the display in all ARPAs or RADAR systems. How is this accomplished?",
+                "<div>- 3-phase synchros.</div><div><br /></div><div>- 2-phase resolvers.</div><div><br /></div><div>- Optical encoders.</div><div><br /></div><div>(Any of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "l%QX%w/^ao",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-42E1 Waveguides can be constructed from:<div><br /></div><div><div>- Brass.</div><div><br /></div><div>- Aluminum.</div><div><br /></div><div>- Copper.</div></div><div><br /></div><div>- All of the above</div><div><br /></div>",
+                "<div>All of the above</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "v*@Qo%<=9H",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-42E2 A microwave transmission line constructed of a center conductor suspended between parallel conductive ground planes is called:",
+                "<div>Stripline.</div>"
+            ],
+            "flags": 0,
+            "guid": "O_uud:,xD[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-42E3 Waveguide theory is based upon:",
+                "<div>The movement of an electromagnetic field.</div>"
+            ],
+            "flags": 0,
+            "guid": "mECY<Ezu[C",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-42E4 A waveguide is used at RADAR microwave frequencies because:",
+                "<div>It has lower transmission losses than other feedline types.</div>"
+            ],
+            "flags": 0,
+            "guid": "E<l]z|j;8~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-42E5 Waveguide theory is based on the principals of:",
+                "Skin effect and use of ¼ wave stubs."
+            ],
+            "flags": 0,
+            "guid": "GMP?]$*[2C",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-42E6 How is the signal removed from a waveguide or magnetron?",
+                "With a thin wire called a J-Hook."
+            ],
+            "flags": 0,
+            "guid": "q(Zu6g;.8t",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-43E1 A rotary joint is used to:",
+                "<div>Connect a stationary waveguide to the antenna array.</div>"
+            ],
+            "flags": 0,
+            "guid": "t,7GUxBYM)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-43E2 Resistive losses in a waveguide are very small because:",
+                "<div>The inner surface of the waveguide is large.</div>"
+            ],
+            "flags": 0,
+            "guid": "Fhcjov8[>%",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-43E3 A right-angle bend in an X-band waveguide must have a radius greater than:",
+                "<div>Two inches.</div>"
+            ],
+            "flags": 0,
+            "guid": "L)&}1XT!>1",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-43E4 To insert RF energy into or extract RF energy from a waveguide, which of the following would not be used?<div><br /></div><div><div>- Coupling capacitance.&nbsp;</div><div><br /></div><div>- Current loop.&nbsp;</div><div><br /></div><div>- Aperture window.&nbsp;</div><div><br /></div><div>- Voltage probe.&nbsp;</div></div><div><br /></div>",
+                "Coupling capacitance."
+            ],
+            "flags": 0,
+            "guid": "fO3ZRfAPIe",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-43E5 The following is true concerning waveguides:<div><br /></div><div><div>- Conduction is accomplished by the polarization of electromagnetic and electrostatic fields.</div><div><br /></div><div>- Ancillary deflection is employed.</div><div><br /></div><div>- The magnetic field is strongest at the center of the waveguide.</div><div><br /></div><div>- The magnetic field is strongest at the edges of the waveguide.</div></div><div><br /></div>",
+                "The magnetic field is strongest at the edges of the waveguide."
+            ],
+            "flags": 0,
+            "guid": "P].43K)3A(",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-43E6 At microwave frequencies, waveguides are used instead of conventional coaxial transmission lines because:",
+                "They have considerably less loss."
+            ],
+            "flags": 0,
+            "guid": "o.!>sw!j>o",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-44F1 When you examine the RADAR you notice that there is no target video in the center of the CRT. The blank spot gets smaller in diameter as you increase the range scale. What operator front panel control could be misadjusted?",
+                "<div>Sensitivity Time Control (STC).</div>"
+            ],
+            "flags": 0,
+            "guid": "p<B7zZ:,Y!",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-44F2 Range rings on the PPI indicator are oval in shape. Which circuit would you suspect is faulty?",
+                "<div>Sweep generation circuit.</div>"
+            ],
+            "flags": 0,
+            "guid": "Bq.#lzrehO",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-44F3 What would be the most likely defective area when there is no target video in the center of the CRT and the blank spot gets smaller in diameter as your range scale is increased?",
+                "<div>The TR (TRL) Cell.</div>"
+            ],
+            "flags": 0,
+            "guid": "g!I/fea`eH",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-44F4 While the vessel is docked the presentation of the pier is distorted near the center of the PPI with the pier appearing to bend in a concave fashion. This is a primary indication of what?",
+                "The waveguide compensation delay line needs adjusting."
+            ],
+            "flags": 0,
+            "guid": "tAlyM0wy7e",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-44F5 In a RADAR using digital video processing, a bright, wide ring appears at a fixed distance from the center of the display on all digital ranges. The transmitter is operating normally. What receiver circuit would you suspect is causing the problem?",
+                "Video storage RAM or shift register."
+            ],
+            "flags": 0,
+            "guid": "Cu^=~ZWvL(",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-44F6 The raster scan RADAR display has missing video in a rectangular block on the screen. Where is the most likely problem area?",
+                "Memory area failure."
+            ],
+            "flags": 0,
+            "guid": "Pq$<A5++JQ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-45F1 A circuit card in a RADAR system has just been replaced with a spare card. You notice the voltage level&nbsp;at point E in Fig. 8F12 is negative 4.75 volts when the inputs are all at 5 volts. The problem is:</div><div><br /></div><div><img src=\"paste-105974023061784.jpg\" /></div>",
+                "<div>The 50 K resistor has been mistakenly replaced with a 25 K resistor.</div>"
+            ],
+            "flags": 0,
+            "guid": "IW70JWMoug",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-45F2 A defective crystal in the AFC section will cause:",
+                "<div>Bright flashing pie sections on the PPI.</div>"
+            ],
+            "flags": 0,
+            "guid": "dEr5;d/ayZ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-45F3 The RADAR display has sectors of solid video (spoking). What would be the first thing to check?",
+                "<div>For interference from nearby ships.</div>"
+            ],
+            "flags": 0,
+            "guid": "E#*Ju!7I94",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-45F4 In the circuit contained in Fig. 8F12, there are 5 volts present at points B and C, and there are zero volts&nbsp;present at points A and D. What is the voltage at point E?</div><div><br /></div><div><img src=\"paste-105978318029080.jpg\" /></div>",
+                "<div>-1.5 Volts.</div>"
+            ],
+            "flags": 0,
+            "guid": "kPHjto,&|V",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-45F5 If the TR tube malfunctions:",
+                "<div>The receiver might be damaged.</div>"
+            ],
+            "flags": 0,
+            "guid": "K6%9sJuCN]",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-45F6 The indicated distance from your own vessel to a lighthouse is found to be in error. What circuit would you suspect?",
+                "<div>Range ring oscillator.</div>"
+            ],
+            "flags": 0,
+            "guid": "JM#Qany9oe",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-46F1 Silicon crystals are used in RADAR mixer and detector stages. Using an ohmmeter, how might a crystal be checked to determine if it is functional?",
+                "<div>Its resistance should be low in one direction and high in the opposite direction.</div>"
+            ],
+            "flags": 0,
+            "guid": "gIg.$Z0V$l",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-46F2 In a RADAR unit, if the crystal mixer becomes defective, replace the:",
+                "<div>The crystal and the TR tube.</div>"
+            ],
+            "flags": 0,
+            "guid": "hFi7hkb}z`",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-46F3 An increase in magnetron current that coincides with a decrease in power output is an indication of what?",
+                "<div>The external magnet weakening.</div>"
+            ],
+            "flags": 0,
+            "guid": "y:F{QSogvW",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-46F4 It is reported that the RADAR is not receiving small targets. The most likely causes are:",
+                "<div>Magnetron, IF amplifier, or receiver tuning.</div>"
+            ],
+            "flags": 0,
+            "guid": "wJADju9!L&",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-46F5 A high magnetron current indicates a/an:",
+                "Defective external magnetic field."
+            ],
+            "flags": 0,
+            "guid": "N8#xwVCSuI",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-46F6 Low or no mixer current could be caused by:",
+                "<div>- Local oscillator frequency misadjustment.</div><div><br /></div><div>- TR cell failure.</div><div><br /></div><div>- Mixer diode degradation.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "N.~`+snO:l",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-47F1 If the magnetron is allowed to operate without the magnetic field in place:",
+                "<div>It will quickly destroy itself from excessive current flow.</div>"
+            ],
+            "flags": 0,
+            "guid": "n4LR/Jx52u",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-47F2 Targets displayed on the RADAR display are not on the same bearing as their visual bearing. What should you first suspect?<div><br /></div><div><div>- A bad reed relay in the antenna pedestal.</div><div><br /></div><div>- A sweep length misadjustment.</div><div><br /></div><div>- One phase of the yoke assembly is open.</div><div><br /></div><div>- Incorrect antenna position information.</div></div><div><br /></div>",
+                "<div>Incorrect antenna position information.</div>"
+            ],
+            "flags": 0,
+            "guid": "MT+hf>j+b*",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-47F3 Loss of distant targets during and immediately after wet weather indicates:",
+                "<div>A leak in waveguide or rotary joint.</div>"
+            ],
+            "flags": 0,
+            "guid": "i{)p(E|u2_",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-47F4 In a marine RADAR set, a high VSWR is indicated at the magnetron output. The waveguide and rotary joint appear to be functioning properly. What component may be malfunctioning?",
+                "<div>The waveguide array termination</div>"
+            ],
+            "flags": 0,
+            "guid": "ndf3!tu@kz",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-47F5 On a vessel with two RADARs, one has a different range indication on a specific target than the other. How would you determine which RADAR is incorrect?",
+                "Check the sweep and timing circuits of both indicators for correct readings."
+            ],
+            "flags": 0,
+            "guid": "z0NPAV]nzB",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-47F6 An increase in the deflection on the magnetron current meter could likely be caused by:",
+                "A decrease of the magnetic field strength."
+            ],
+            "flags": 0,
+            "guid": "LnA9gt)#d<",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-48F1 A thick layer of rust and corrosion on the surface of the parabolic dish will have what effect?",
+                "<div>Decrease in performance, especially for weak targets.</div>"
+            ],
+            "flags": 0,
+            "guid": "xtt3~;~EhZ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-48F2 The echo box is used for:",
+                "<div>Testing and tuning of the RADAR unit by providing artificial targets.</div>"
+            ],
+            "flags": 0,
+            "guid": "E8}ig+{TAS",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-48F3 What should be done to the interior surface of a waveguide in order to minimize signal loss?",
+                "<div>Keep it as clean as possible.</div>"
+            ],
+            "flags": 0,
+            "guid": "wHpi%RuX);",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-48F4 Which of the following is the most useful instrument for RADAR servicing?</div><div><br /></div><div>- Oscilloscope.</div><div><br /></div><div>- Frequency Counter.</div><div><br /></div><div>- R. F. Wattmeter.</div><div><br /></div><div>- Audio generator.</div><div><br /></div>",
+                "<div>Oscilloscope.</div>"
+            ],
+            "flags": 0,
+            "guid": "z2T9(|RRP{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "oscilloscopes",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-48F5 A non-magnetic screwdriver should always be used when replacing what component?",
+                "Magnetron."
+            ],
+            "flags": 0,
+            "guid": "JuLn1!M@(f",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-48F6 What kind of display would indicate water in the waveguide?",
+                "Large circular rings near the center."
+            ],
+            "flags": 0,
+            "guid": "N]XC$(t0FY",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-49F1 Why is coaxial cable often used for S-band installations instead of a waveguide?",
+                "<div>Losses can be kept reasonable at S-band frequencies and the installation cost is lower.</div>"
+            ],
+            "flags": 0,
+            "guid": "C)ib*SWGJg",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-49F2 RADAR interference to a communications receiver is eliminated by:",
+                "<div>Properly grounding, bonding, and shielding all units.</div>"
+            ],
+            "flags": 0,
+            "guid": "tTl~Iw:KtA",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-49F3 Why should long horizontal runs of waveguide be avoided?",
+                "<div>To prevent accumulation of condensation.</div>"
+            ],
+            "flags": 0,
+            "guid": "GO;6}wIFTN",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-49F4 Long horizontal sections of waveguides are not desirable because:",
+                "<div>Moisture can accumulate in the waveguide.</div>"
+            ],
+            "flags": 0,
+            "guid": "s*k.X|Pp3G",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-49F5 In a RADAR system, waveguides should be installed:",
+                "As straight as possible to reduce distortion."
+            ],
+            "flags": 0,
+            "guid": "KS[rinZ5|<",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-49F6 What is the most important factor to consider in locating the antenna?",
+                "The antenna is in a location that is not shadowed by other structures."
+            ],
+            "flags": 0,
+            "guid": "NCWpEb%c1H",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-50F1 Choose the most correct statement with respect to component damage from electrostatic discharge:<div><br /></div><div><div>- ESD damage occurs primarily in passive components which are easily identified and replaced.</div><div><br /></div><div>- ESD damage occurs primarily in active components which are easily identified and replaced.</div><div><br /></div><div>- The technician will feel a small static shock and recognize that ESD damage has occurred to the circuit.</div><div><br /></div><div>- ESD damage may cause immediate circuit failures, but may also cause failures much later at times when the RADAR set is critically needed.</div></div><div><br /></div>",
+                "<div>ESD damage may cause immediate circuit failures, but may also cause failures much later at times when the RADAR set is critically needed.</div>"
+            ],
+            "flags": 0,
+            "guid": "ln9mt7ZN*g",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-50F2 Before testing a RADAR transmitter, it would be a good idea to:",
+                "<div>Make sure there are no explosives or flammable cargo being loaded.</div>"
+            ],
+            "flags": 0,
+            "guid": "E-({@d+=uH",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>8-50F3 While making repairs or adjustments to RADAR units:</div><div><br /></div><div>- Wear fire-retardant clothing.</div><div><br /></div><div>- Discharge all high-voltage capacitors to ground.</div><div><br /></div><div>- Maintain the filament voltage.</div><div><br /></div><div>- Reduce the magnetron voltage.</div><div><br /></div>",
+                "<div>Discharge all high-voltage capacitors to ground.</div>"
+            ],
+            "flags": 0,
+            "guid": "MQum$W$&HY",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "capacitors",
+                "maritime",
+                "radar",
+                "safety"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-50F4 While removing a CRT from its operating casing, it is a good idea to:",
+                "Wear gloves and goggles."
+            ],
+            "flags": 0,
+            "guid": "J-X`jyJk,>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-50F5 If a CRT is dropped:",
+                "It might implode, causing damage to workers and equipment."
+            ],
+            "flags": 0,
+            "guid": "HA%q+nun3>",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8-50F6 Prior to removing, servicing or making measurements on any solid state circuit boards from the RADAR set, the operator should ensure that:",
+                "The proper work surfaces and ESD grounding straps are in place to prevent damage to the boards from electrostatic discharge."
+            ],
+            "flags": 0,
+            "guid": "O1^$f)r[UV",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "maritime",
+                "radar"
+            ]
+        }
+    ]
+}

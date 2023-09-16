@@ -1,0 +1,2205 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6ab3102b-6ac3-11e9-81cc-f45c89a0e3a9",
+    "deck_config_uuid": "6ab311ee-6ac3-11e9-b9a7-f45c89a0e3a9",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "6ab311ee-6ac3-11e9-b9a7-f45c89a0e3a9",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Parent Deck",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 8,
+    "extendRev": 3,
+    "media_files": [],
+    "name": "FCC Commercial Written Element 1",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "vim"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-1A1 What is a requirement of all marine transmitting apparatus used aboard United States vessels?",
+                "<div>Only equipment that has been certified by the FCC for Part 80 operations is authorized.</div>"
+            ],
+            "flags": 0,
+            "guid": "Nrx{od_1oe",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-1A2 What transmitting equipment is authorized for use by a station in the maritime services?",
+                "<div>Unless specifically excepted, only transmitters certified by the Federal Communications Commission for Part 80 operations.</div>"
+            ],
+            "flags": 0,
+            "guid": "Inj%,~2}Gp",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-1A3 Small passenger vessels that sail 20 to 150 nautical miles from the nearest land must have what additional equipment?",
+                "<div>MF-HF SSB Transceiver.</div>"
+            ],
+            "flags": 0,
+            "guid": "AHMG(s=(A_",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-1A4 What equipment is programmed to initiate transmission of distress alerts and calls to individual stations?",
+                "<div>DSC controller.</div>"
+            ],
+            "flags": 0,
+            "guid": "M2{r{L@oiJ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "dsc",
+                "equipment-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-1A5 What is the minimum transmitter power level required by the FCC for a medium-frequency transmitter aboard a compulsorily fitted vessel?",
+                "<div>At least 60 watts PEP.</div>"
+            ],
+            "flags": 0,
+            "guid": "jPkiGx]U@J",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-1A6 Shipboard transmitters using F3E emission (FM voice) may not exceed what carrier power?",
+                "<div>25 watts.</div>"
+            ],
+            "flags": 0,
+            "guid": "KXWGMg]J)c",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-2A1 Which commercial radio operator license is required to operate a fixed-tuned ship RADAR station with external controls?",
+                "<div>No radio operator authorization is required.</div>"
+            ],
+            "flags": 0,
+            "guid": "enJZ2C:&iF",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "license-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-2A2 When is a Marine Radio Operator Permit or higher license required for aircraft communications?",
+                "<div>When operating on frequencies below 30 MHz not allocated exclusively to aeronautical mobile services.</div>"
+            ],
+            "flags": 0,
+            "guid": "JH_f5v{l@P",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "license-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-2A3 Which of the following persons are ineligible to be issued a commercial radio operator license?",
+                "<div>Individuals who are unable to send and receive correctly by telephone spoken messages in English.</div>"
+            ],
+            "flags": 0,
+            "guid": "EA[_YDfqYN",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "license-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-2A4 What are the radio operator requirements of a passenger ship equipped with a GMDSS installation?",
+                "<div>Two operators on board must hold a GMDSS Radio Operator License or a Restricted GMDSS Radio Operator License, depending on the ship’s operating areas.</div>"
+            ],
+            "flags": 0,
+            "guid": "j)?yFFe|bp",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "license-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-2A5 What is the minimum radio operator requirement for ships subject to the Great Lakes Radio Agreement?",
+                "<div>Marine Radio Operator Permit.</div>"
+            ],
+            "flags": 0,
+            "guid": "wmI9vo0]U)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "license-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-2A6 What is a requirement of every commercial operator on duty and in charge of a transmitting system?",
+                "<div>The original license or a photocopy must be posted or in the operator’s personal possession and available for inspection.</div>"
+            ],
+            "flags": 0,
+            "guid": "K*FB6N4rcn",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "license-requirements"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-3A1 Radio watches for compulsory radiotelephone stations will include the following:",
+                "<div>VHF channel 16 continuous watch.</div>"
+            ],
+            "flags": 0,
+            "guid": "u0ref<H*$t",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "watchkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-3A2 All compulsory equipped cargo ships (except those operating under GMDSS regulations or in a VTS) while being navigated outside of a harbor or port, shall keep a continuous radiotelephone watch on:",
+                "<div>2182 kHz and Ch-16.</div>"
+            ],
+            "flags": 0,
+            "guid": "w3T;BPo>lw",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "watchkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-3A3 What channel must all compulsory, non-GMDSS vessels monitor at all times in the open sea?",
+                "<div>Channel 16.</div>"
+            ],
+            "flags": 0,
+            "guid": "j$eoyvO(UG",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "watchkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-3A4 When a watch is required on 2182 kHz, at how many minutes past the hour must a 3 minute silent period be observed?",
+                "<div>00, 30.</div>"
+            ],
+            "flags": 0,
+            "guid": "mLS1`d>Fm3",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "watchkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-3A5 Which is true concerning a required watch on VHF Ch-16?<div><br /></div><div><div>- It is compulsory at all times while at sea until further notice, unless the vessel is in a VTS system.</div><div><br /></div><div>- When a vessel is in an A1 sea area and subject to the Bridge-to-Bridge act and in a VTS system, a watch is not required on Ch-16, provided the vessel monitors both Ch-13 and VTS channel.</div><div><br /></div><div>- It is always compulsory in sea areas A2, A3 and A4.</div><div><br /></div><div>- All of the above.</div></div><div><br /></div>",
+                "<div>- It is compulsory at all times while at sea until further notice, unless the vessel is in a VTS system.</div><div><br /></div><div>- When a vessel is in an A1 sea area and subject to the Bridge-to-Bridge act and in a VTS system, a watch is not required on Ch-16, provided the vessel monitors both Ch-13 and VTS channel.</div><div><br /></div><div>- It is always compulsory in sea areas A2, A3 and A4.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "AYlm+)j>nH",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "watchkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-3A6 What are the mandatory DSC watchkeeping bands/channels?",
+                "<div>8 MHz HF DSC, 1 other HF DSC, 2 MHz MF DSC and VHF Ch-70.</div>"
+            ],
+            "flags": 0,
+            "guid": "BZm:!dEM9?",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "watchkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-4A1 Who is required to make entries in a required service or maintenance log?",
+                "<div>The operator responsible for the station operation or maintenance.</div>"
+            ],
+            "flags": 0,
+            "guid": "O3Wh%Nr$A)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "logkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-4A2 Who is responsible for the proper maintenance of station logs?",
+                "<div>The station licensee and the radio operator in charge of the station.</div>"
+            ],
+            "flags": 0,
+            "guid": "fz~?)U1CSJ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "logkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-4A3 Where must ship station logs be kept during a voyage?",
+                "<div>At the principal radiotelephone operating position.</div>"
+            ],
+            "flags": 0,
+            "guid": "n34b(wwqC5",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "logkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-4A4 What is the proper procedure for making a correction in the station log?",
+                "<div>The original person making the entry must strike out the error, initial the correction and indicate the date of the correction.</div>"
+            ],
+            "flags": 0,
+            "guid": "E[#YcQ4U]8",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "logkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-4A5 How long should station logs be retained when there are entries relating to distress or disaster situations?",
+                "<div>For a period of three years from the last date of entry, unless notified by the FCC.</div>"
+            ],
+            "flags": 0,
+            "guid": "v167U]WZtp",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "logkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-4A6 How long should station logs be retained when there are no entries relating to distress or disaster situations?",
+                "<div>For a period of two years from the last date of entry.</div>"
+            ],
+            "flags": 0,
+            "guid": "ddUP@oa@Bg",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "logkeeping"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-5A1 Radiotelephone stations required to keep logs of their transmissions must include:",
+                "<div>- Station, date and time.</div><div><br /></div><div>- Name of operator on duty.</div><div><br /></div><div>- Station call signs with which communication took place.</div><div><br /></div><div>(All of these.)</div>"
+            ],
+            "flags": 0,
+            "guid": "c91aTT0^g#",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "log-entries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>1-5A2 Which of the following is true?</div><div><br /></div><div>- Battery test must be logged daily.</div><div><br /></div><div>- EPIRB tests are normally logged monthly.</div><div><br /></div><div>- Radiotelephone tests are normally logged weekly.</div><div><br /></div><div>- None of the above.</div><div><br /></div>",
+                "<div>EPIRB tests are normally logged monthly.</div>"
+            ],
+            "flags": 0,
+            "guid": "vp,PrEw$#}",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "log-entries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-5A3 Where should the GMDSS radio log be kept on board ship?",
+                "<div>At the GMDSS operating position.</div>"
+            ],
+            "flags": 0,
+            "guid": "bQf^<=IS%v",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "log-entries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>1-5A4 Which of the following statements is true?</div><div><br /></div><div>- Key letters or abbreviations may be used in GMDSS Radio Logbooks if their meaning is noted in the&nbsp;log.</div><div><br /></div><div>- Key letters or abbreviations may not be used in GMDSS Radio Logbooks under any circumstances.</div><div><br /></div><div>- All Urgency communications must be entered in the logbook.</div><div><br /></div><div>- None of the above.</div></div><div><br /></div>",
+                "<div>Key letters or abbreviations may be used in GMDSS Radio Logbooks if their meaning is noted in the log.&nbsp;</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "Dp?meG9@8`",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss",
+                "log-entries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-5A5 Which of the following logkeeping statements is true?<div><br /></div><div><div>A. Entries relating to pre-voyage, pre-departure and daily tests are required.</div><div><br /></div><div>B. Both a) and c)</div><div><br /></div><div>C. A summary of all required Distress communications heard and Urgency communications affecting the station’s own ship. Also, all Safety communications (other than VHF) affecting the station’s own ship must be logged.</div><div><br /></div><div>D. Routine daily MF-HF and Inmarsat-C transmissions do not have to be logged.</div></div><div><br /></div>",
+                "<div>Both a) and c)</div>"
+            ],
+            "flags": 0,
+            "guid": "Kfp}0luyIg",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "log-entries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-5A6 Which of the following statements concerning log entries is false?<div><br /></div><div><div>- All Safety communications received on VHF must be logged.</div><div><br /></div><div>- All required equipment tests must be logged.</div><div><br /></div><div>- The radio operator must log on and off watch.</div><div><br /></div><div>- The vessels daily position must be entered in the log.</div></div><div><br /></div>",
+                "<div>All Safety communications received on VHF must be logged.</div>"
+            ],
+            "flags": 0,
+            "guid": "Gra>|8S@O_",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "log-entries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-6A1 What regulations govern the use and operation of FCC-licensed ship stations in international waters?",
+                "<div>Part 80 of the FCC Rules plus the international Radio Regulations and agreements to which the United States is a party.</div>"
+            ],
+            "flags": 0,
+            "guid": "cB<iwF?4Cs",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "miscellaneous-rules-and-regulations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-6A2 When may the operator of a ship radio station allow an unlicensed person to speak over the transmitter?",
+                "<div>When under the supervision of the licensed operator.</div>"
+            ],
+            "flags": 0,
+            "guid": "g7|bMB`heK",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "miscellaneous-rules-and-regulations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-6A3 Where do you make an application for inspection of a ship GMDSS radio station?",
+                "<div>To the Engineer-in-Charge of the FCC District Office nearest the proposed place of inspection.</div>"
+            ],
+            "flags": 0,
+            "guid": "o:gWH|Y8FZ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "miscellaneous-rules-and-regulations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-6A4 Who has ultimate control of service at a ship’s radio station?",
+                "<div>The master of the ship.</div>"
+            ],
+            "flags": 0,
+            "guid": "KRYS_H>B3]",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "miscellaneous-rules-and-regulations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-6A5 Where must the principal radiotelephone operating position be installed in a ship station?",
+                "<div>In the room or an adjoining room from which the ship is normally steered while at sea.</div>"
+            ],
+            "flags": 0,
+            "guid": "FEEbhuiu:;",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "miscellaneous-rules-and-regulations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-6A6 By international agreement, which ships must carry radio equipment for the safety of life at sea?",
+                "<div>Cargo ships of more than 300 gross tons and vessels carrying more than 12 passengers.</div>"
+            ],
+            "flags": 0,
+            "guid": "Dhg(o-gbA{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "miscellaneous-rules-and-regulations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-7B1 What traffic management service is operated by the U.S. Coast Guard in certain designated water areas to prevent ship collisions, groundings and environmental harm?",
+                "<div>Vessel Traffic Service (VTS).</div>"
+            ],
+            "flags": 0,
+            "guid": "r^WkV}URV1",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "bridge-to-bridge-operations",
+                "communications-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-7B2 What is a bridge-to-bridge station?",
+                "<div>A VHF radio station located on a ship’s navigational bridge or main control station that is used only for navigational communications.</div>"
+            ],
+            "flags": 0,
+            "guid": "mSSLDb2i[i",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "bridge-to-bridge-operations",
+                "communications-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-7B3 When may a bridge-to-bridge transmission be more than 1 watt?&nbsp;",
+                "<div>When broadcasting a distress message and rounding a bend in a river or traveling in a blind spot.&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "omsZ1SM|!}",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "bridge-to-bridge-operations",
+                "communications-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-7B4 When is it legal to transmit high power on Channel 13?",
+                "<div>- Failure of vessel being called to respond.</div><div><br /></div><div>- In a blind situation such as rounding a bend in a river.</div><div><br /></div><div>- During an emergency.</div><div><br /></div><div>(All of these.)</div>"
+            ],
+            "flags": 0,
+            "guid": "g)OV9AtN1~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "bridge-to-bridge-operations",
+                "communications-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-7B5 A ship station using VHF bridge-to-bridge Channel 13:",
+                "<div>May be identified by the name of the ship in lieu of call sign.</div>"
+            ],
+            "flags": 0,
+            "guid": "s?EmW?SmOV",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "bridge-to-bridge-operations",
+                "communications-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-7B6 The primary purpose of bridge-to-bridge communications is:",
+                "<div>Navigational communications.</div>"
+            ],
+            "flags": 0,
+            "guid": "x09`mv5u[1",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "bridge-to-bridge-operations",
+                "communications-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-8B1 What is the best way for a radio operator to minimize or prevent interference to other stations?",
+                "<div>Determine that a frequency is not in use by monitoring the frequency before transmitting.</div>"
+            ],
+            "flags": 0,
+            "guid": "Niq=d=5U4v",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-8B2 Under what circumstances may a coast station using telephony transmit a general call to a group of vessels?",
+                "<div>When announcing or preceding the transmission of Distress, Urgency, Safety or other important messages.</div>"
+            ],
+            "flags": 0,
+            "guid": "QRlUO>_vFS",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-8B3 Who determines when a ship station may transmit routine traffic destined for a coast or government station in the maritime mobile service?",
+                "<div>Ship stations must comply with instructions given by the coast or government station.</div>"
+            ],
+            "flags": 0,
+            "guid": "wFd81YYa`|",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-8B4 What is required of a ship station which has established initial contact with another station on 2182 kHz or Ch-16?",
+                "<div>The stations must change to an authorized working frequency for the transmission of messages.</div>"
+            ],
+            "flags": 0,
+            "guid": "Bm#<f&RsH[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-8B5 How does a coast station notify a ship that it has a message for the ship?",
+                "<div>The coast station may transmit, at intervals, lists of call signs in alphabetical order for which they have traffic.</div>"
+            ],
+            "flags": 0,
+            "guid": "Q-HR,uB3jL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-8B6 What is the priority of communications?",
+                "<div>Distress, Urgency and Safety.</div>"
+            ],
+            "flags": 0,
+            "guid": "jix9]H=]ef",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-9B1 Under what circumstances may a ship or aircraft station interfere with a public coast station?",
+                "<div>In cases of distress.</div>"
+            ],
+            "flags": 0,
+            "guid": "Cd>Pb%;OHS",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-9B2 Ordinarily, how often would a station using a telephony emission identify?",
+                "<div>At the beginning and end of each transmission and at 15-minute intervals.</div>"
+            ],
+            "flags": 0,
+            "guid": "G{^T.Lf&%J",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-9B3 When using a SSB station on 2182 kHz or VHF-FM on channel 16:&nbsp;<div><br /></div><div><div>- Preliminary call must not exceed 30 seconds.</div><div><br /></div><div>- If contact is not made, you must wait at least 2 minutes before repeating the call.</div><div><br /></div><div>- Once contact is established, you must switch to a working frequency.</div><div><br /></div><div>- All of these.</div></div><div><br /></div>",
+                "<div>All of these.</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "g3:zx3iU1,",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-9B4 What should a station operator do before making a transmission?",
+                "<div>Except for the transmission of distress calls, determine that the frequency is not in use by monitoring the frequency before transmitting.</div>"
+            ],
+            "flags": 0,
+            "guid": "s#zHc(.j@a",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-9B5 On what frequency should a ship station normally call a coast station when using a radiotelephony emission?",
+                "<div>Calls should be initiated on the appropriate ship-to-shore working frequency of the coast station.</div>"
+            ],
+            "flags": 0,
+            "guid": "FE]5DKr~v",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-9B6 In the International Phonetic Alphabet, the letters E, M, and S are represented by the words:",
+                "<div>Echo, Mike, Sierra</div>"
+            ],
+            "flags": 0,
+            "guid": "srbTT,m^+X",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "operating-procedures"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-10B1 What information must be included in a Distress message?",
+                "<div>- Name of vessel.</div><div>- Location.</div><div>- Type of distress and specifics of help requested.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "t/3D5sl+Ip",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "distress-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-10B2 What are the highest priority communications from ships at sea?",
+                "<div>Distress calls are highest and then communications preceded by Urgency and then Safety signals.</div>"
+            ],
+            "flags": 0,
+            "guid": "D,^{k@I;12",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "distress-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-10B3 What is a Distress communication?",
+                "<div>An internationally recognized communication indicating that the sender is threatened by grave and imminent danger and requests immediate assistance.</div>"
+            ],
+            "flags": 0,
+            "guid": "jw>*4lb!g)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "distress-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-10B4 What is the order of priority of radiotelephone communications in the maritime services?",
+                "<div>Distress calls and signals, followed by communications preceded by Urgency and Safety signals and all other communications.</div>"
+            ],
+            "flags": 0,
+            "guid": "EBPC(j,ftQ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "distress-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-10B5 The radiotelephone Distress call and message consists of:",
+                "<div>- MAYDAY spoken three times, followed by the name of the vessel and the call sign in phonetics spoken three times.</div><div><br /></div><div>- Particulars of its position, latitude and longitude, and other information which might facilitate rescue, such as length, color and type of vessel, and number of persons on board.</div><div><br /></div><div>- Nature of distress and kind of assistance required.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "f}Jzs7S3V^",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "distress-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-10B6 What is Distress traffic?",
+                "<div>All messages relative to the immediate assistance required by a ship, aircraft or other vehicle threatened by grave or imminent danger, such as life and safety of persons on board, or man overboard.</div>"
+            ],
+            "flags": 0,
+            "guid": "q)ILXul<YL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "distress-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-11B1 What is a typical Urgency transmission?",
+                "<div>A request for medical assistance that does not rise to the level of a Distress or a critical weather transmission higher than Safety.</div>"
+            ],
+            "flags": 0,
+            "guid": "JS>W0}>E!f",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "urgency-and-safety-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-11B2 What is the internationally recognized Urgency signal?",
+                "<div>The words “PAN PAN” spoken three times before the Urgency call.</div>"
+            ],
+            "flags": 0,
+            "guid": "wkp[XRjg2j",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "urgency-and-safety-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-11B3 What is a Safety transmission?",
+                "<div>A communications transmission which indicates that a station is preparing to transmit an important navigation or weather warning.</div>"
+            ],
+            "flags": 0,
+            "guid": "B%{+ibw3s:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "urgency-and-safety-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-11B4 The Urgency signal concerning the safety of a ship, aircraft or person shall be sent only on the authority of:",
+                "<div>Either Master of ship or person responsible for mobile station.</div>"
+            ],
+            "flags": 0,
+            "guid": "s4pfADZK^%",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "urgency-and-safety-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-11B5 The Urgency signal has lower priority than:",
+                "<div>Distress.</div>"
+            ],
+            "flags": 0,
+            "guid": "5*Ng)goc~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "urgency-and-safety-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-11B6 What safety signal call word is spoken three times, followed by the station call letters spoken three times, to announce a storm warning, danger to navigation, or special aid to navigation?",
+                "<div>SECURITE.</div>"
+            ],
+            "flags": 0,
+            "guid": "q%c6.N*/Jj",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "urgency-and-safety-communications"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-12B1 What is the fundamental concept of the GMDSS?",
+                "<div>It is intended to automate and improve emergency communications in the maritime industry.</div>"
+            ],
+            "flags": 0,
+            "guid": "vkzy/F11lB",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-12B2 The primary purpose of the GMDSS is to:",
+                "<div>Automate and improve emergency communications for the world’s shipping industry.</div>"
+            ],
+            "flags": 0,
+            "guid": "pk:O8Q{V2H",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-12B3 What is the basic concept of GMDSS?",
+                "<div>- Shoreside authorities and vessels can assist in a coordinated SAR operation with minimum delay.</div><div><br /></div><div>- Search and rescue authorities ashore can be alerted to a Distress situation.</div><div><br /></div><div>- Shipping in the immediate vicinity of a ship in Distress will be rapidly alerted.</div><div><br /></div><div>(All of these.)</div>"
+            ],
+            "flags": 0,
+            "guid": "lCpF#F$?3-",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-12B4 GMDSS is primarily a system based on?",
+                "<div>The linking of search and rescue authorities ashore with shipping in the immediate vicinity of a ship in Distress or in need of assistance.</div>"
+            ],
+            "flags": 0,
+            "guid": "r4;RJBorrf",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-12B5 What is the responsibility of vessels under GMDSS?",
+                "<div>Every ship is able to perform those communications functions that are essential for the Safety of the ship itself and of other ships.</div>"
+            ],
+            "flags": 0,
+            "guid": "D?d?%2oA,+",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-12B6 GMDSS is required for which of the following?<div><br /></div><div><div>- All vessels capable of international voyages.</div><div><br /></div><div>- SOLAS Convention ships of 300 gross tonnage or more.</div><div><br /></div><div>- Vessels operating outside of the range of VHF coastal radio stations.</div><div><br /></div><div>- Coastal vessels of less than 300 gross tons.</div></div><div><br /></div>",
+                "<div>SOLAS Convention ships of 300 gross tonnage or more.</div>"
+            ],
+            "flags": 0,
+            "guid": "r:F9zJ^fN{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "gmdss"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-13C1 What is the purpose of the INT-USA control settings on a VHF?",
+                "<div>To change certain International Duplex channel assignments to simplex in the U.S. for VTS and other purposes.</div>"
+            ],
+            "flags": 0,
+            "guid": "CWC%czggx6",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-13C2 VHF ship station transmitters must have the capability of reducing carrier power to:",
+                "<div>1 watt.</div>"
+            ],
+            "flags": 0,
+            "guid": "mMS;9,mq9M",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-13C3 The Dual Watch (DW) function is used to:",
+                "<div>Listen on any selected channel while periodically monitoring Ch-16.</div>"
+            ],
+            "flags": 0,
+            "guid": "vv*cFOLt7:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-13C4 Which of the following statements best describes the correct setting for manual adjustment of the squelch control?",
+                "<div>Adjust squelch control to the minimum level necessary to barely suppress any background noise.</div>"
+            ],
+            "flags": 0,
+            "guid": "lEM^S($8SZ",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-13C5 The “Scan” function is used to:",
+                "<div>Sequentially scan all or selected channels.</div>"
+            ],
+            "flags": 0,
+            "guid": "JjH9=jJ*u[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-13C6 Why must all VHF Distress, Urgency and Safety communications (as well as VTS traffic calls) be performed in Simplex operating mode?",
+                "<div>To ensure that vessels not directly participating in the communications can hear both sides of the radio exchange.</div>"
+            ],
+            "flags": 0,
+            "guid": "MT$Ou=?W=X",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-14C1 What channel must VHF-FM-equipped vessels monitor at all times when the vessel is at sea?",
+                "<div>Channel 16.</div>"
+            ],
+            "flags": 0,
+            "guid": "u}qYc2zpQ:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-channel-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-14C2 What is the aircraft frequency and emission used for distress communications?",
+                "<div>121.500 MHz - A3E.</div>"
+            ],
+            "flags": 0,
+            "guid": "z8;NrCis:,",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-channel-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-14C3 Which VHF channel is used only for digital selective calling?",
+                "<div>Channel 70.</div>"
+            ],
+            "flags": 0,
+            "guid": "dMz-0m#DN-",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-channel-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-14C4 Which channel is utilized for the required bridge-to-bridge watch?",
+                "<div>VHF-FM on Ch-13 in most areas of the continental United States.</div>"
+            ],
+            "flags": 0,
+            "guid": "ifYSUPN,ko",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-channel-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-14C5 Which channel would most likely be used for routine ship-to-ship voice traffic?",
+                "<div>Ch-08.</div>"
+            ],
+            "flags": 0,
+            "guid": "DdiBe<&4AW",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-channel-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-14C6 What channel would you use to place a call to a shore telephone?",
+                "<div>Ch-28.</div>"
+            ],
+            "flags": 0,
+            "guid": "u<~8Y,:as?",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "vhf-channel-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-15C1 Which modes could be selected to receive vessel traffic lists from high seas shore stations?",
+                "<div>SSB and FEC.</div>"
+            ],
+            "flags": 0,
+            "guid": "fnIF,eP<HX",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-15C2 Why must all MF-HF Distress, Urgency and Safety communications take place solely on the 6 assigned frequencies and in the simplex operating mode?",
+                "<div>- For non-GMDSS ships, to maximize the chances for other vessels to receive those communications.</div><div><br /></div><div>- For GMDSS or DSC-equipped ships, to maximize the chances for other vessels to receive those communications following the transmission of a DSC call of the correct priority.</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "GJ3$*33`ET",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-15C3 To set-up the MF/HF transceiver for a voice call to a coast station, the operator must:",
+                "<div>Select J3E mode for proper voice operations.</div>"
+            ],
+            "flags": 0,
+            "guid": "BhB?4O.eN[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-15C4 MF/HF transceiver power levels should be set:",
+                "<div>To the lowest level necessary for effective communications.</div>"
+            ],
+            "flags": 0,
+            "guid": "JkC}wqv/:K",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-15C5 To set-up the MF/HF transceiver for a TELEX call to a coast station, the operator must:",
+                "<div>Select F1B mode or J2B mode, depending on the equipment manufacturer.</div>"
+            ],
+            "flags": 0,
+            "guid": "ieUa3OAB2^",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-15C6 What is the purpose of the Receiver Incremental Tuning (RIT) or “Clarifier” control?",
+                "<div>It acts as a “fine-tune” control on the receive frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "q]?wJ@]wfa",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-equipment-controls"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-16C1 On what frequency would a vessel normally call another ship station when using a radiotelephony emission?",
+                "<div>On 2182 kHz or Ch-16, unless the station knows that the called vessel maintains a simultaneous watch on another intership working frequency.</div>"
+            ],
+            "flags": 0,
+            "guid": "Fk36GMl?4+",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-frequency-and-emission-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-16C2 What is the MF radiotelephony calling and Distress frequency?",
+                "<div>2182 kHz.</div>"
+            ],
+            "flags": 0,
+            "guid": "QwLM{XNi;4",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-frequency-and-emission-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-16C3 For general communications purposes, paired frequencies are:&nbsp;<div><br /></div><div><div>- Normally used with private coast stations.</div><div><br /></div><div>- Normally used between ship stations.</div><div><br /></div><div>- Normally used between private coast and ship stations.</div><div><br /></div><div>- Normally used with public coast stations.</div></div><div><br /></div>",
+                "<div>Normally used with public coast stations.&nbsp;</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "pLp#1Z6wB5",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-frequency-and-emission-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-16C4 What emission must be used when operating on the MF distress and calling voice frequency?",
+                "<div>J3E – Single sideband telephony.</div>"
+            ],
+            "flags": 0,
+            "guid": "K}I$.(M$G_",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-frequency-and-emission-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-16C5 Which of the following defines high frequency “ITU Channel 1212”?",
+                "<div>The 12th channel in the 12 MHz band.</div>"
+            ],
+            "flags": 0,
+            "guid": "QBlR8yFLK$",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-frequency-and-emission-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-16C6 For general communications purposes, simplex frequencies are:",
+                "<div>- Normally used between ship stations and private coast stations.</div><div><br /></div><div>- Normally used between ship stations.</div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "A_#,liD!xy",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "mf-hf-frequency-and-emission-selection"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-17C1 What is the proper procedure for testing a radiotelephone installation?",
+                "<div>Transmit the station’s call sign, followed by the word “test” on the frequency being used for the test.</div>"
+            ],
+            "flags": 0,
+            "guid": "v5m|@b+Ch{",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "equipment-tests"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-17C2 When testing is conducted on 2182 kHz or Ch-16, testing should not continue for more than ______ in any 5-minute period.",
+                "<div>10 seconds.</div>"
+            ],
+            "flags": 0,
+            "guid": "K#=kkqo,SG",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "equipment-tests"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-17C3 Under GMDSS, a compulsory VHF-DSC radiotelephone installation must be tested at what minimum intervals at sea?",
+                "<div>Daily.</div>"
+            ],
+            "flags": 0,
+            "guid": "odf4GnVx{[",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "equipment-tests"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-17C4 The best way to test the MF-HF NBDP system is?",
+                "<div>Initiate an ARQ call to a Coast Station and wait for the automatic exchange of answerbacks.</div>"
+            ],
+            "flags": 0,
+            "guid": "j}K(!Q;WiL",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "equipment-tests"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-17C5 The best way to test the Inmarsat-C terminal is?",
+                "<div>Compose and send a brief message to your own Inmarsat-C terminal.</div>"
+            ],
+            "flags": 0,
+            "guid": "eP;z~:dv?%",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "equipment-tests"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-17C6 When may you test a radiotelephone transmitter on the air?",
+                "<div>At any time (except during silent periods) as necessary to assure proper operation.</div>"
+            ],
+            "flags": 0,
+            "guid": "nM+[w+I*}i",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-operations",
+                "equipment-tests"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-18C1 Under normal circumstances, what do you do if the transmitter aboard your ship is operating off-frequency, overmodulating or distorting?",
+                "<div>Stop transmitting.</div>"
+            ],
+            "flags": 0,
+            "guid": "sK!0F+udX:",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-faults",
+                "equipment-operations"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-18C2 Which would be an indication of proper operation of a SSB transmitter rated at 60 watt PEP output?",
+                "<div>In SITOR communications, the power meter can be seen fluctuating regularly from zero to the 60 watt relative output reading.</div>"
+            ],
+            "flags": 0,
+            "guid": "x*@%nnnZZ4",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-faults"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-18C3 If a ship radio transmitter signal becomes distorted:",
+                "<div>Cease operations.</div>"
+            ],
+            "flags": 0,
+            "guid": "Jh%Fh7I-i<",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-faults"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-18C4 What would be an indication of a malfunction on a GMDSS station with a 24 VDC battery system?",
+                "<div>A constant 30 volt reading on the GMDSS console voltmeter.</div>"
+            ],
+            "flags": 0,
+            "guid": "Ll/pn6pkui",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-faults"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-18C5 Your antenna tuner becomes totally inoperative. What would you do to obtain operation on both the 8 MHz and 22 MHz frequency bands?",
+                "<div>Bypass the antenna tuner. Use a straight whip or wire antenna approximately 30 ft long.</div>"
+            ],
+            "flags": 0,
+            "guid": "vF(YCZi%6T",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-faults"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-18C6 Which of the following conditions would be a symptom of malfunction in a 2182 kHz radiotelephone system that must be reported to the Master, then logged appropriately.",
+                "No indication of power output when speaking into the microphone."
+            ],
+            "flags": 0,
+            "guid": "dbQeW}4x0!",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "equipment-faults"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-19D1 What are the antenna requirements of a VHF telephony coast, maritime utility or ship station?",
+                "<div>The shore or on-board antenna must be vertically polarized.</div>"
+            ],
+            "flags": 0,
+            "guid": "MC)<u%+t4^",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-19D2 What is the antenna requirement of a radiotelephone installation aboard a passenger vessel?",
+                "<div>The antenna must be vertically polarized and as non-directional and efficient as is practicable for the transmission and reception of ground waves over seawater.</div>"
+            ],
+            "flags": 0,
+            "guid": "g5x)wf]qBe",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-19D3 What is the most common type of antenna for GMDSS VHF?<div><br /></div><div><div>- Horizontally polarized circular antenna.</div><div><br /></div><div>- Long wire antenna.</div><div><br /></div><div>- Both of the above.</div><div><br /></div><div>- None of the above.</div></div>",
+                "<div><div>None of the above.</div></div>"
+            ],
+            "flags": 0,
+            "guid": "dSiqY+J6r)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-19D4 What is the purpose of the antenna tuner?",
+                "<div>It alters the electrical characteristics of the antenna to match the frequency in use.</div>"
+            ],
+            "flags": 0,
+            "guid": "G0+p,9@nBF",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-19D5 What advantage does a vertical whip have over a long wire?",
+                "It radiates equally well in all directions."
+            ],
+            "flags": 0,
+            "guid": "NK!I7}z1<l",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-19D6 A vertical whip antenna has a radiation pattern best described by?",
+                "A circle."
+            ],
+            "flags": 0,
+            "guid": "Q(U9]!5cF1",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "antennas",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-20D1 For a small passenger vessel inspection, reserve power batteries must be tested:",
+                "<div>At intervals not exceeding 12 months, or during the inspection.</div>"
+            ],
+            "flags": 0,
+            "guid": "pR=g__ZyQX",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "power-sources"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-20D2 What are the characteristics of the Reserve Source of Energy under GMDSS?",
+                "<div>Must be independent of the ship’s electrical system when the RSE is needed to supply power to the GMDSS equipment.</div>"
+            ],
+            "flags": 0,
+            "guid": "nDmDnTzmJE",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "power-sources"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-20D3 Which of the following terms is defined as a back-up power source that provides power to radio installations for the purpose of conducting Distress and Safety communications when the vessel’s main and emergency generators cannot?",
+                "<div>Reserve Source of Energy.&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "stG;9{o)8`",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "power-sources"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-20D4 In the event of failure of the main and emergency sources of electrical power, what is the term for the source required to supply the GMDSS console with power for conducting distress and other radio communications?",
+                "<div>Reserve source of energy.</div>"
+            ],
+            "flags": 0,
+            "guid": "n`Vm,`{8ci",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "power-sources"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-20D5 What is the requirement for emergency and reserve power in GMDSS radio installations?",
+                "<div>All newly constructed ships under GMDSS must have both emergency and reserve power sources for radio communications.</div>"
+            ],
+            "flags": 0,
+            "guid": "o&G6my]SA~",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "power-sources"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-20D6 What is the meaning of “Reserve Source of Energy”?",
+                "<div>The supply of electrical energy sufficient to operate the radio installations for the purpose of conducting Distress and Safety communications in the event of failure of the ship’s main and emergency sources of electrical power.</div>"
+            ],
+            "flags": 0,
+            "guid": "oXg1IU:()2",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "power-sources"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-21D1 What is an EPIRB?",
+                "<div>A battery-operated emergency position-indicating radio beacon that floats free of a sinking ship.</div>"
+            ],
+            "flags": 0,
+            "guid": "Nv>5$~L5W2",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "epirbs",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-21D2 When are EPIRB batteries changed?",
+                "<div>After emergency use or within the month and year replacement date printed on the EPIRB.</div>"
+            ],
+            "flags": 0,
+            "guid": "yfIw.5VQT!",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "epirbs",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-21D3 If a ship sinks, what device is designed to float free of the mother ship, is turned on automatically and transmits a distress signal?",
+                "<div>An emergency position indicating radio beacon.</div>"
+            ],
+            "flags": 0,
+            "guid": "tXEbkQW5Xl",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "epirbs",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-21D4 How do you cancel a false EPIRB distress alert?",
+                "<div>Notify the Coast Guard or rescue coordination center at once.</div>"
+            ],
+            "flags": 0,
+            "guid": "Hq]*(JVlxV",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "epirbs",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-21D5 What is the COSPAS-SARSAT system?",
+                "An international satellite-based search and rescue system."
+            ],
+            "flags": 0,
+            "guid": "NSkpJGM69r",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "epirbs",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-21D6 What is an advantage of a 406 MHz satellite EPIRB?",
+                "<div>- It is compatible with the COSPAS-SARSAT Satellites and Global Maritime Distress Safety System (GMDSS) regulations.</div><div><br /></div><div>- Provides a fast, accurate method for the Coast Guard to locating and rescuing persons in distress.</div><div><br /></div><div>- Includes a digitally encoded message containing the ship’s identity and nationality.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "p$c-MaZ#)$",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "epirbs",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-22D1 In which frequency band does a search and rescue transponder operate?",
+                "<div>9 GHz.</div>"
+            ],
+            "flags": 0,
+            "guid": "bm[R]*JL.w",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "sarts"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-22D2 How should the signal from a Search And Rescue Radar Transponder appear on a RADAR display?",
+                "<div>A series of 12 equally spaced dots.</div>"
+            ],
+            "flags": 0,
+            "guid": "kp3zH[eWeo",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "sarts"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-22D3 What is the purpose of the SART’s audible tone alarm?",
+                "<div>It informs survivors that assistance may be nearby.</div>"
+            ],
+            "flags": 0,
+            "guid": "c<OnL^Rb]4",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "sarts"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-22D4 Which statement is true regarding the SART?<div><br /></div><div><div>- This is a performance monitor attached to at least one S-band navigational RADAR system.</div><div><br /></div><div>- This is a 9 GHz transponder capable of being received by another vessel’s S-band navigational RADAR system.</div><div><br /></div><div>- This is a performance monitor attached to at least one X-band navigational RADAR system.</div><div><br /></div><div>- This is a 9 GHz transponder capable of being received by vessel’s X-band navigational RADAR system.</div></div><div><br /></div>",
+                "<div>This is a 9 GHz transponder capable of being received by vessel’s X-band navigational RADAR system.</div>"
+            ],
+            "flags": 0,
+            "guid": "u#K2^zY[8K",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "sarts"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-22D5 At what point does a SART begin transmitting?",
+                "If it has been placed in the “on” position, it will respond when it has been interrogated by a 9-GHz RADAR signal."
+            ],
+            "flags": 0,
+            "guid": "JpD#m*v=+)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "sarts"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-22D6 How can a SART’s effective range be maximized?",
+                "The SART should be held as high as possible."
+            ],
+            "flags": 0,
+            "guid": "GS8n6*](8(",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "sarts"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-23D1 Which statement is NOT true regarding the requirements of survival craft portable two-way VHF radiotelephone equipment?<div><br /></div><div><div>- Watertight to a depth of 1 meter for 5 minutes.</div><div><br /></div><div>- Effective radiated power should be a minimum of 0.25 watts.</div><div><br /></div><div>- Operates simplex on Ch-70 and at least one other channel.</div><div><br /></div><div>- The antenna is fixed and non-removable.</div></div><div><br /></div>",
+                "<div>Operates simplex on Ch-70 and at least one other channel.</div>"
+            ],
+            "flags": 0,
+            "guid": "m#`^+UbNIt",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "survival-craft-vhf",
+                "vhf"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-23D2 Which statement is NOT true regarding the requirements of survival craft portable two-way VHF radiotelephone equipment?<div><br /></div><div><div>- Operation on Ch-13.</div><div><br /></div><div>- Effective radiated power should be a minimum of 0.25 Watts.</div><div><br /></div><div>- Simplex voice communications only.</div><div><br /></div><div>- Operation on Ch-16.</div></div><div><br /></div>",
+                "<div>Operation on Ch-13.</div>"
+            ],
+            "flags": 0,
+            "guid": "kuZ0f&WLv|",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "survival-craft-vhf"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-23D3 With what other stations may portable survival craft transceivers communicate?",
+                "<div>- Communication is permitted between survival craft.</div><div><br /></div><div>- Communication is permitted between survival craft and ship.</div><div><br /></div><div>- Communication is permitted between survival craft and rescue unit.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "Q`;7L5%fTt",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "survival-craft-vhf"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-23D4 Equipment for radiotelephony use in survival craft stations under GMDSS must have what capability?",
+                "<div>Operation on Ch-16.</div>"
+            ],
+            "flags": 0,
+            "guid": "w!H%H$+]p)",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "survival-craft-vhf"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-23D5 Equipment for radiotelephony use in survival craft stations under GMDSS must have what characteristic(s)?",
+                "<div>- Operation on Ch-16.</div><div><br /></div><div>- Watertight.</div><div><br /></div><div>- Permanently-affixed antenna.</div><div><br /></div><div>(All of these.)</div>"
+            ],
+            "flags": 0,
+            "guid": "Mhl,o*Ql#;",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "survival-craft-vhf"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-23D6 What is the minimum power of the SCT?",
+                "One watt."
+            ],
+            "flags": 0,
+            "guid": "rZo!XFnYal",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "other-equipment",
+                "survival-craft-vhf"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-24D1 NAVTEX broadcasts are sent:",
+                "<div>In categories of messages indicated by a single letter or identifier.</div>"
+            ],
+            "flags": 0,
+            "guid": "z1~cml7_MD",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "navtex",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-24D2 MSI can be obtained by one (or more) of the following:",
+                "<div>- NAVTEX.</div><div><br /></div><div>-&nbsp;SafetyNET.</div><div><br /></div><div>- HF NBDP.</div><div><br /></div><div>(All of the above.)</div>"
+            ],
+            "flags": 0,
+            "guid": "Dh4rLgBo=Z",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "navtex",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-24D3 Which of the following is the primary frequency that is used exclusively for NAVTEX broadcasts internationally?<div><br /></div><div><div>- 518 kHz.</div><div><br /></div><div>- 2187.5 kHz.</div><div><br /></div><div>- 4209.5 kHz.</div><div><br /></div><div>- VHF channel 16 when the vessel is sailing in Sea Area A1, and 2187.5 kHz when in Sea Area A2.</div></div><div><br /></div>",
+                "<div>518 kHz.</div>"
+            ],
+            "flags": 0,
+            "guid": "E*wE<q}9#P",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "navtex",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-24D4 What means are used to prevent the reception of unwanted broadcasts by vessels utilizing the NAVTEX system?",
+                "<div>Programming the receiver to reject unwanted broadcasts.</div>"
+            ],
+            "flags": 0,
+            "guid": "gA=edKkjdT",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "navtex",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-24D5 When do NAVTEX broadcasts typically achieve maximum transmitting range?",
+                "Middle of the night."
+            ],
+            "flags": 0,
+            "guid": "IuW6kUokrK",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "navtex",
+                "other-equipment"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1-24D6 What is the transmitting range of most NAVTEX stations?",
+                "Typically 200-400 nautical miles (360-720 km)."
+            ],
+            "flags": 0,
+            "guid": "ETY~B/<R=M",
+            "note_model_uuid": "05c4a478-6ab7-11e9-85ba-f45c89a0e3a9",
+            "tags": [
+                "navtex",
+                "other-equipment"
+            ]
+        }
+    ]
+}
